@@ -1,0 +1,3 @@
+[submodule "src/modules/common"]
+	path = src/modules/common
+	url = https://github.com/lotusczp/Lobster-SDK.git

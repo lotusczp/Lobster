@@ -1,0 +1,1293 @@
+﻿<obj>
+    <obj name="Header">
+        <int name="BuildNumber" val="06" />
+        <int name="SWPartNumber" val="62000662" />
+        <int name="MajorSWRevision" val="0" />
+        <str name="BuildDate" val="2016-02-05T13:07:35-06:00" />
+    </obj>
+    <list name="visibleDataInfo">
+        <obj href="Pltm1UntType/">
+            <int name="Comp" val="0" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="1" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#3062" />
+            <ref name="Range" href="trane:Enumeration/UnitType" />
+        </obj>
+        <obj href="Pltm1NumbofCkts/" is="trane:Dimension/Undefined/">
+            <int name="Comp" val="0" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="2" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#6089" />
+        </obj>
+        <obj href="Pltm1NumbofCompsCkt1/" is="trane:Dimension/Undefined/">
+            <int name="Comp" val="0" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="3" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#6090" />
+        </obj>
+        <obj href="Pltm1NumbofCompsCkt2/" is="trane:Dimension/Undefined/">
+            <int name="Comp" val="0" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="4" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#6091" />
+        </obj>
+        <obj href="Pltm1SrvtoolAutoStopStpt/">
+            <int name="Comp" val="0" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="6" />
+            <int name="RL" val="0" />
+            <int name="WL" val="0" />
+            <str name="DispID" val="#138" />
+            <ref name="Range" href="trane:Enumeration/Stop_Auto" />
+        </obj>
+        <obj href="Pltm1LclAtmPress/" is="trane:Dimension/AtmoPress/">
+            <int name="Comp" val="0" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="8" />
+            <int name="RL" val="0" />
+            <int name="WL" val="2" />
+            <str name="DispID" val="#1524" />
+        </obj>
+        <obj href="Pltm1BASStptEnbl/">
+            <int name="Comp" val="0" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="11" />
+            <int name="RL" val="0" />
+            <int name="WL" val="0" />
+            <str name="DispID" val="#12466" />
+            <ref name="Range" href="trane:Enumeration/Active_Inactive" />
+        </obj>
+        <obj href="Pltm1ChillerRunningIndicator/">
+            <int name="Comp" val="0" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="16" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#6744" />
+            <ref name="Range" href="trane:Enumeration/Stop_Run_Arm" />
+        </obj>
+        <obj href="Pltm1ApplSoftwareRevision/" is="trane:Dimension/UnitLess/">
+            <int name="Comp" val="0" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="26" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#11367" />
+        </obj>
+        <obj href="Pltm1SoftwareSvcLck/">
+            <int name="Comp" val="0" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="30" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#7410" />
+            <ref name="Range" href="trane:Enumeration/Off_Auto_On" />
+        </obj>
+        <obj href="Pltm1BASIntfc/">
+            <int name="Comp" val="0" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="31" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#7827" />
+            <ref name="Range" href="trane:Enumeration/BASType" />
+        </obj>
+        <obj href="Pltm1LastLggdDiagSpc/" is="trane:Dimension/Undefined/">
+            <int name="Comp" val="0" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="32" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#9461" />
+        </obj>
+        <obj href="Unt1ActvAutoStopCmd/">
+            <int name="Comp" val="2" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="1" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#2214" />
+            <ref name="Range" href="trane:Enumeration/Auto_stopped" />
+        </obj>
+        <obj href="Unt1DiagRst/" is="trane:Dimension/None/">
+            <int name="Comp" val="2" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="2" />
+            <int name="RL" val="0" />
+            <int name="WL" val="0" />
+            <str name="DispID" val="#4875" />
+        </obj>
+        <obj href="Unt1PwrUpStartDly/" is="trane:LargeUC/reltime/seconds_v1/">
+            <int name="Comp" val="2" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="3" />
+            <int name="RL" val="0" />
+            <int name="WL" val="2" />
+            <str name="DispID" val="#2974" />
+        </obj>
+        <obj href="Unt1DiagDspl/" is="trane:Dimension/Undefined/">
+            <int name="Comp" val="2" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="4" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#4874" />
+        </obj>
+        <obj href="Unt1TopLevelMode/">
+            <int name="Comp" val="2" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="5" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#4876" />
+            <ref name="Range" href="trane:Enumeration/ChillerOperatingModeRTAE" />
+        </obj>
+        <obj href="Unt1SubLevelMode1/">
+            <int name="Comp" val="2" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="6" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#4877" />
+            <ref name="Range" href="trane:Enumeration/ChillerOperatingModeRTAE" />
+        </obj>
+        <obj href="Unt1SubLevelMode2/">
+            <int name="Comp" val="2" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="7" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#4878" />
+            <ref name="Range" href="trane:Enumeration/ChillerOperatingModeRTAE" />
+        </obj>
+        <obj href="Unt1SubLevelMode3/">
+            <int name="Comp" val="2" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="8" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#4879" />
+            <ref name="Range" href="trane:Enumeration/ChillerOperatingModeRTAE" />
+        </obj>
+        <obj href="Unt1SubLevelMode4/">
+            <int name="Comp" val="2" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="9" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#4880" />
+            <ref name="Range" href="trane:Enumeration/ChillerOperatingModeRTAE" />
+        </obj>
+        <obj href="Unt1SubLevelMode5/">
+            <int name="Comp" val="2" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="10" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#4881" />
+            <ref name="Range" href="trane:Enumeration/ChillerOperatingModeRTAE" />
+        </obj>
+        <obj href="Unt1SubLevelMode6/">
+            <int name="Comp" val="2" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="11" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#4882" />
+            <ref name="Range" href="trane:Enumeration/ChillerOperatingModeRTAE" />
+        </obj>
+        <obj href="Unt1UntRunningIndicator/">
+            <int name="Comp" val="2" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="12" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#5043" />
+            <ref name="Range" href="trane:Enumeration/on_off" />
+        </obj>
+        <obj href="Unt1MAR/">
+            <int name="Comp" val="2" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="13" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#4892" />
+            <ref name="Range" href="trane:Enumeration/Active_Inactive" />
+        </obj>
+        <obj href="Unt1MMR/">
+            <int name="Comp" val="2" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="14" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#4891" />
+            <ref name="Range" href="trane:Enumeration/Active_Inactive" />
+        </obj>
+        <obj href="Unt1IFW/">
+            <int name="Comp" val="2" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="15" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#4893" />
+            <ref name="Range" href="trane:Enumeration/Active_Inactive" />
+        </obj>
+        <obj href="Unt1ManualOverrideExsts/">
+            <int name="Comp" val="2" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="16" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#2988" />
+            <ref name="Range" href="trane:Enumeration/Yes_No" />
+        </obj>
+        <obj href="Unt1StptSrce/">
+            <int name="Comp" val="2" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="17" />
+            <int name="RL" val="0" />
+            <int name="WL" val="1" />
+            <str name="DispID" val="#3278" />
+            <ref name="Range" href="trane:Enumeration/ovrdsource" />
+        </obj>
+        <obj href="Unt1immeShtdn/" is="trane:Dimension/None/">
+            <int name="Comp" val="2" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="18" />
+            <int name="RL" val="0" />
+            <int name="WL" val="0" />
+            <str name="DispID" val="#4890" />
+        </obj>
+        <obj href="Unt1OccpdStatus/">
+            <int name="Comp" val="2" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="19" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15214" />
+            <ref name="Range" href="trane:Enumeration/Yes_No" />
+        </obj>
+        <obj href="Unt1DbgState/" is="trane:Dimension/Undefined/">
+            <int name="Comp" val="2" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="255" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15215" />
+        </obj>
+        <obj href="SplyAr1SplyFanRlyCmd/">
+            <int name="Comp" val="3" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="1" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15224" />
+            <ref name="Range" href="trane:Enumeration/on_off" />
+        </obj>
+        <obj href="SplyAr1SplyFanVoltCmd/" is="trane:Dimension/ElectPot/">
+            <int name="Comp" val="3" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="2" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15225" />
+        </obj>
+        <obj href="SplyAr1SplyFanPrvngInp/">
+            <int name="Comp" val="3" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="3" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15226" />
+            <ref name="Range" href="trane:Enumeration/Flow_NoFlow" />
+        </obj>
+        <obj href="SplyAr1ActvSplyAirFanReq/">
+            <int name="Comp" val="3" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="4" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15227" />
+            <ref name="Range" href="trane:Enumeration/on_off" />
+        </obj>
+        <obj href="SplyAr1ActvSplyAirSpeedReq/" is="trane:Dimension/Percent/">
+            <int name="Comp" val="3" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="5" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15228" />
+        </obj>
+        <obj href="SplyAr1SplyFanSpeedStatus/" is="trane:Dimension/Percent/">
+            <int name="Comp" val="3" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="6" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15229" />
+        </obj>
+        <obj href="SplyAr1PressCtrlSplyFanSpeedReq/" is="trane:Dimension/Percent/">
+            <int name="Comp" val="3" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="7" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15230" />
+        </obj>
+        <obj href="SplyAr1SplyAirPressLclInp/" is="trane:Dimension/LowPress/">
+            <int name="Comp" val="3" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="8" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15231" />
+        </obj>
+        <obj href="SplyAr1ActvSplyAirPressInp/" is="trane:Dimension/LowPress/">
+            <int name="Comp" val="3" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="9" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15232" />
+        </obj>
+        <obj href="SplyAr1PressSnsrConn/" is="trane:Dimension/Undefined/">
+            <int name="Comp" val="3" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="10" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15233" />
+        </obj>
+        <obj href="SplyAr1FrntPnlSplyAirPressStpt/" is="trane:Dimension/LowPress/">
+            <int name="Comp" val="3" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="11" />
+            <int name="RL" val="0" />
+            <int name="WL" val="0" />
+            <str name="DispID" val="#15234" />
+        </obj>
+        <obj href="SplyAr1ActvSplyAirPressStpt/" is="trane:Dimension/LowPress/">
+            <int name="Comp" val="3" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="12" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15235" />
+        </obj>
+        <obj href="SplyAr1PressStptConn/" is="trane:Dimension/Undefined/">
+            <int name="Comp" val="3" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="13" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15236" />
+        </obj>
+        <obj href="SplyAr1SAPressDdbnd/" is="trane:Dimension/LowPress/">
+            <int name="Comp" val="3" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="14" />
+            <int name="RL" val="0" />
+            <int name="WL" val="0" />
+            <str name="DispID" val="#15237" />
+        </obj>
+        <obj href="SplyAr1SAPressKp/" is="trane:Dimension/Undefined/">
+            <int name="Comp" val="3" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="15" />
+            <int name="RL" val="0" />
+            <int name="WL" val="0" />
+            <str name="DispID" val="#15238" />
+        </obj>
+        <obj href="SplyAr1SAPressTi/" is="trane:LargeUC/reltime/seconds_v1/">
+            <int name="Comp" val="3" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="16" />
+            <int name="RL" val="0" />
+            <int name="WL" val="0" />
+            <str name="DispID" val="#15239" />
+        </obj>
+        <obj href="SplyAr1FrntPnlSAPressHghLimStpt/" is="trane:Dimension/LowPress/">
+            <int name="Comp" val="3" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="17" />
+            <int name="RL" val="0" />
+            <int name="WL" val="0" />
+            <str name="DispID" val="#15240" />
+        </obj>
+        <obj href="SplyAr1SplyAirPressSoftLoadTime/" is="trane:LargeUC/reltime/seconds_v1/">
+            <int name="Comp" val="3" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="18" />
+            <int name="RL" val="0" />
+            <int name="WL" val="0" />
+            <str name="DispID" val="#15287" />
+        </obj>
+        <obj href="SplyAr1SplyFanSpeedActDirection/">
+            <int name="Comp" val="3" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="19" />
+            <int name="RL" val="0" />
+            <int name="WL" val="5" />
+            <str name="DispID" val="#15350" />
+            <ref name="Range" href="trane:Enumeration/Yes_No" />
+        </obj>
+        <obj href="SplyAr1SplyFanRampTime/" is="trane:LargeUC/reltime/seconds_v1/">
+            <int name="Comp" val="3" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="20" />
+            <int name="RL" val="0" />
+            <int name="WL" val="5" />
+            <str name="DispID" val="#15347" />
+        </obj>
+        <obj href="SplyAr1SplyFanSpeedMinVolt/" is="trane:Dimension/ElectPot/">
+            <int name="Comp" val="3" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="21" />
+            <int name="RL" val="0" />
+            <int name="WL" val="5" />
+            <str name="DispID" val="#15348" />
+        </obj>
+        <obj href="SplyAr1SplyFanSpeedMaxVolt/" is="trane:Dimension/ElectPot/">
+            <int name="Comp" val="3" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="22" />
+            <int name="RL" val="0" />
+            <int name="WL" val="5" />
+            <str name="DispID" val="#15349" />
+        </obj>
+        <obj href="Econ1OutdoorAirRH/" is="trane:Dimension/Percent/">
+            <int name="Comp" val="4" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="1" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15318" />
+        </obj>
+        <obj href="Econ1OutdoorAirEnth/" is="trane:Dimension/Undefined/">
+            <int name="Comp" val="4" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="2" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15319" />
+        </obj>
+        <obj href="Econ1ActvOutdoorAirTemp/" is="trane:Dimension/AbsTemp/">
+            <int name="Comp" val="4" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="3" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15314" />
+        </obj>
+        <obj href="Econ1RtnAirTemp/" is="trane:Dimension/AbsTemp/">
+            <int name="Comp" val="4" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="4" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15320" />
+        </obj>
+        <obj href="Econ1RtnAirRH/" is="trane:Dimension/Percent/">
+            <int name="Comp" val="4" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="5" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15321" />
+        </obj>
+        <obj href="Econ1RtnAirEnth/" is="trane:Dimension/Undefined/">
+            <int name="Comp" val="4" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="6" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15322" />
+        </obj>
+        <obj href="Econ1RefEnthStpt/" is="trane:Dimension/Undefined/">
+            <int name="Comp" val="4" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="7" />
+            <int name="RL" val="0" />
+            <int name="WL" val="0" />
+            <str name="DispID" val="#15323" />
+        </obj>
+        <obj href="Econ1RefEnthEnblStpt/">
+            <int name="Comp" val="4" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="8" />
+            <int name="RL" val="0" />
+            <int name="WL" val="0" />
+            <str name="DispID" val="#15324" />
+            <ref name="Range" href="trane:Enumeration/Enable_Disable" />
+        </obj>
+        <obj href="Econ1OutdoorAirDmprCmd/" is="trane:Dimension/Percent/">
+            <int name="Comp" val="4" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="9" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15306" />
+        </obj>
+        <obj href="Econ1Econ/">
+            <int name="Comp" val="4" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="10" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15310" />
+            <ref name="Range" href="trane:Enumeration/Enable_Disable" />
+        </obj>
+        <obj href="Econ1CtrlType/" is="trane:Dimension/Undefined/">
+            <int name="Comp" val="4" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="11" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15325" />
+        </obj>
+        <obj href="Econ1BASCtrlStpt/" is="trane:Dimension/Undefined/">
+            <int name="Comp" val="4" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="12" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15326" />
+        </obj>
+        <obj href="Econ1DryBlbEnblStpt/" is="trane:Dimension/AbsTemp/">
+            <int name="Comp" val="4" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="13" />
+            <int name="RL" val="0" />
+            <int name="WL" val="0" />
+            <str name="DispID" val="#15311" />
+        </obj>
+        <obj href="Econ1Kp/" is="trane:Dimension/UnitLess/">
+            <int name="Comp" val="4" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="14" />
+            <int name="RL" val="0" />
+            <int name="WL" val="0" />
+            <str name="DispID" val="#15312" />
+        </obj>
+        <obj href="Econ1Ti/" is="trane:LargeUC/reltime/seconds_v1/">
+            <int name="Comp" val="4" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="15" />
+            <int name="RL" val="0" />
+            <int name="WL" val="0" />
+            <str name="DispID" val="#15313" />
+        </obj>
+        <obj href="Econ1DbgState/" is="trane:Dimension/Undefined/">
+            <int name="Comp" val="4" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="255" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15305" />
+        </obj>
+        <obj href="Vent1OutdoorAirDmprCmdVolt/" is="trane:Dimension/ElectPot/">
+            <int name="Comp" val="5" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="1" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15288" />
+        </obj>
+        <obj href="Vent1ActvOutdoorAirDmprPosReq/" is="trane:Dimension/Percent/">
+            <int name="Comp" val="5" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="2" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15289" />
+        </obj>
+        <obj href="Vent1OutdoorAirDmprPosStatus/" is="trane:Dimension/Percent/">
+            <int name="Comp" val="5" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="3" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15290" />
+        </obj>
+        <obj href="Vent1ActvMinventPosStpt/" is="trane:Dimension/Percent/">
+            <int name="Comp" val="5" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="4" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15291" />
+        </obj>
+        <obj href="Vent1FrntPnlMinventPosStpt/" is="trane:Dimension/Percent/">
+            <int name="Comp" val="5" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="5" />
+            <int name="RL" val="0" />
+            <int name="WL" val="0" />
+            <str name="DispID" val="#15292" />
+        </obj>
+        <obj href="Vent1MinventPosStptSrce/" is="trane:Dimension/UnitLess/">
+            <int name="Comp" val="5" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="6" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15293" />
+        </obj>
+        <obj href="Vent1OutdoorAirDmprActDirection/">
+            <int name="Comp" val="5" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="7" />
+            <int name="RL" val="0" />
+            <int name="WL" val="5" />
+            <str name="DispID" val="#15355" />
+            <ref name="Range" href="trane:Enumeration/Yes_No" />
+        </obj>
+        <obj href="Vent1OutdoorAirDmprStrkTime/" is="trane:LargeUC/reltime/seconds_v1/">
+            <int name="Comp" val="5" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="8" />
+            <int name="RL" val="0" />
+            <int name="WL" val="5" />
+            <str name="DispID" val="#15352" />
+        </obj>
+        <obj href="Vent1OutdoorAirDmprMinVolt/" is="trane:Dimension/ElectPot/">
+            <int name="Comp" val="5" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="9" />
+            <int name="RL" val="0" />
+            <int name="WL" val="5" />
+            <str name="DispID" val="#15353" />
+        </obj>
+        <obj href="Vent1OutdoorAirDmprMaxVolt/" is="trane:Dimension/ElectPot/">
+            <int name="Comp" val="5" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="10" />
+            <int name="RL" val="0" />
+            <int name="WL" val="5" />
+            <str name="DispID" val="#15354" />
+        </obj>
+        <obj href="Vent1DbgState/" is="trane:Dimension/Undefined/">
+            <int name="Comp" val="5" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="255" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15336" />
+        </obj>
+        <obj href="CpctyCtrl1NeedToRunIndicator/">
+            <int name="Comp" val="8" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="1" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#14237" />
+            <ref name="Range" href="trane:Enumeration/Yes_No" />
+        </obj>
+        <obj href="CpctyCtrl1CpctyCtrlSlvEnum/" is="trane:Dimension/Undefined/">
+            <int name="Comp" val="8" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="2" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15295" />
+        </obj>
+        <obj href="CpctyCtrl1DbgState/" is="trane:Dimension/Undefined/">
+            <int name="Comp" val="8" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="255" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#4638" />
+        </obj>
+        <obj href="TempCtrl1FrntPnlSplyAirCoolingStpt/" is="trane:Dimension/AbsTemp/">
+            <int name="Comp" val="30" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="1" />
+            <int name="RL" val="0" />
+            <int name="WL" val="0" />
+            <str name="DispID" val="#15216" />
+        </obj>
+        <obj href="TempCtrl1FrntPnlSplyAirHeatingStpt/" is="trane:Dimension/AbsTemp/">
+            <int name="Comp" val="30" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="2" />
+            <int name="RL" val="0" />
+            <int name="WL" val="0" />
+            <str name="DispID" val="#15217" />
+        </obj>
+        <obj href="TempCtrl1ModuPropGain/" is="trane:Dimension/UnitLess/">
+            <int name="Comp" val="30" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="3" />
+            <int name="RL" val="5" />
+            <int name="WL" val="5" />
+            <str name="DispID" val="#15296" />
+        </obj>
+        <obj href="TempCtrl1ModuInteTime/" is="trane:LargeUC/reltime/seconds_v1/">
+            <int name="Comp" val="30" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="4" />
+            <int name="RL" val="5" />
+            <int name="WL" val="5" />
+            <str name="DispID" val="#15297" />
+        </obj>
+        <obj href="TempCtrl1ModuDdbnd/" is="trane:Dimension/DiffTemp/">
+            <int name="Comp" val="30" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="5" />
+            <int name="RL" val="5" />
+            <int name="WL" val="5" />
+            <str name="DispID" val="#15298" />
+        </obj>
+        <obj href="TempCtrl1TempCtrlSoftLoadTime/" is="trane:LargeUC/reltime/seconds_v1/">
+            <int name="Comp" val="30" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="6" />
+            <int name="RL" val="0" />
+            <int name="WL" val="0" />
+            <str name="DispID" val="#15218" />
+        </obj>
+        <obj href="TempCtrl1ActvSplyAirCoolingStpt/" is="trane:Dimension/AbsTemp/">
+            <int name="Comp" val="30" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="32" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15219" />
+        </obj>
+        <obj href="TempCtrl1ActvSplyAirCoolingStptSrce/">
+            <int name="Comp" val="30" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="33" />
+            <int name="RL" val="6" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15220" />
+            <ref name="Range" href="trane:Enumeration/Front_External_Tracer" />
+        </obj>
+        <obj href="TempCtrl1ModuPropCmd/" is="trane:Dimension/UnitLess/">
+            <int name="Comp" val="30" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="36" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15221" />
+        </obj>
+        <obj href="TempCtrl1ModuInteCmd/" is="trane:Dimension/UnitLess/">
+            <int name="Comp" val="30" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="37" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15222" />
+        </obj>
+        <obj href="TempCtrl1NeedToRunCoolingIndicator/">
+            <int name="Comp" val="30" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="38" />
+            <int name="RL" val="5" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15299" />
+            <ref name="Range" href="trane:Enumeration/Yes_No" />
+        </obj>
+        <obj href="TempCtrl1ActvSplyAirTemp/" is="trane:Dimension/AbsTemp/">
+            <int name="Comp" val="30" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="40" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15300" />
+        </obj>
+        <obj href="TempCtrl1TempCtrlSACoolingTgt/" is="trane:Dimension/AbsTemp/">
+            <int name="Comp" val="30" />
+            <str name="Seq" val="1" />
+            <int name="AID" val="41" />
+            <int name="RL" val="0" />
+            <int name="WL" val="6" />
+            <str name="DispID" val="#15329" />
+        </obj>
+    </list>
+    <list name="Ranges">
+        <list name="trane:Enumeration/50HzLimit">
+            <int name="R0" val="0" displayName="#1846" />
+        </list>
+        <list name="trane:Enumeration/Active_Inactive">
+            <int name="R0" val="0" displayName="#7925" />
+            <int name="R1" val="1" displayName="#7926" />
+        </list>
+        <list name="trane:Enumeration/Auto_Manual">
+            <int name="R0" val="0" displayName="#2255" />
+            <int name="R1" val="1" displayName="#2364" />
+        </list>
+        <list name="trane:Enumeration/Auto_On">
+            <int name="R0" val="0" displayName="#2256" />
+            <int name="R1" val="1" displayName="#2255" />
+        </list>
+        <list name="trane:Enumeration/Auto_On3">
+            <int name="R0" val="0" displayName="#2255" />
+            <int name="R3" val="3" displayName="#2256" />
+        </list>
+        <list name="trane:Enumeration/Auto_Manual3">
+            <int name="R1" val="1" displayName="#2364" />
+            <int name="R2" val="2" displayName="#2255" />
+        </list>
+        <list name="trane:Enumeration/Auto_Manual_Override">
+            <int name="R1" val="1" displayName="#2255" />
+            <int name="R3" val="3" displayName="#2364" />
+        </list>
+        <list name="trane:Enumeration/Auto_On_Override">
+            <int name="R1" val="1" displayName="#2255" />
+            <int name="R2" val="2" displayName="#2256" />
+        </list>
+        <list name="trane:Enumeration/Auto_locked">
+            <int name="R0" val="0" displayName="#228" />
+            <int name="R1" val="1" displayName="#2255" />
+        </list>
+        <list name="trane:Enumeration/Auto_stopped">
+            <int name="R0" val="0" displayName="#2255" />
+            <int name="R1" val="1" displayName="#2878" />
+        </list>
+        <list name="trane:Enumeration/BASCommStatus">
+            <int name="R0" val="0" displayName="#3282" />
+            <int name="R1" val="1" displayName="#3284" />
+            <int name="R2" val="2" displayName="#3285" />
+            <int name="R3" val="3" displayName="#3286" />
+        </list>
+        <list name="trane:Enumeration/BASType">
+            <int name="R0" val="0" displayName="#2745" />
+            <int name="R1" val="1" displayName="#3868" />
+            <int name="R2" val="2" displayName="#7822" />
+            <int name="R3" val="3" displayName="#5984" />
+            <int name="R4" val="4" displayName="#7824" />
+        </list>
+        <list name="trane:Enumeration/ChillerMode">
+            <int name="R0" val="0" displayName="#7724" />
+            <int name="R1" val="1" displayName="#7725" />
+            <int name="R2" val="2" displayName="#7726" />
+            <int name="R3" val="3" displayName="#7727" />
+        </list>
+        <list name="trane:Enumeration/ChillerOperatingMode">
+            <int name="R0" val="0" displayName="#2877" />
+            <int name="R1" val="1" displayName="#2878" />
+            <int name="R2" val="2" displayName="#2879" />
+            <int name="R3" val="3" displayName="#2255" />
+            <int name="R4" val="4" displayName="#2881" />
+            <int name="R5" val="5" displayName="#1070" />
+            <int name="R6" val="6" displayName="#2884" />
+            <int name="R7" val="7" displayName="#2887" />
+            <int name="R8" val="8" displayName="#3456" />
+            <int name="R9" val="9" displayName="#3173" />
+            <int name="R20" val="20" displayName="#1038" />
+            <int name="R21" val="21" displayName="#2890" />
+            <int name="R22" val="22" displayName="#2894" />
+            <int name="R23" val="23" displayName="#2892" />
+            <int name="R24" val="24" displayName="#1049" />
+            <int name="R25" val="25" displayName="#2888" />
+            <int name="R26" val="26" displayName="#2619" />
+            <int name="R27" val="27" displayName="#2895" />
+            <int name="R28" val="28" displayName="#2896" />
+            <int name="R29" val="29" displayName="#1042" />
+            <int name="R30" val="30" displayName="#1044" />
+            <int name="R31" val="31" displayName="#2726" />
+            <int name="R32" val="32" displayName="#2908" />
+            <int name="R33" val="33" displayName="#2891" />
+            <int name="R34" val="34" displayName="#2909" />
+            <int name="R35" val="35" displayName="#2914" />
+            <int name="R36" val="36" displayName="#4365" />
+            <int name="R37" val="37" displayName="#1312" />
+            <int name="R38" val="38" displayName="#2893" />
+            <int name="R39" val="39" displayName="#3452" />
+            <int name="R40" val="40" displayName="#2911" />
+            <int name="R41" val="41" displayName="#11924" />
+            <int name="R42" val="42" displayName="#3454" />
+            <int name="R43" val="43" displayName="#2313" />
+            <int name="R44" val="44" displayName="#1067" />
+            <int name="R45" val="45" displayName="#1068" />
+            <int name="R46" val="46" displayName="#3397" />
+            <int name="R47" val="47" displayName="#2910" />
+            <int name="R48" val="48" displayName="#3029" />
+            <int name="R49" val="49" displayName="#3451" />
+            <int name="R50" val="50" displayName="#4010" />
+            <int name="R51" val="51" displayName="#5467" />
+            <int name="R52" val="52" displayName="#2899" />
+            <int name="R53" val="53" displayName="#4107" />
+            <int name="R54" val="54" displayName="#2907" />
+            <int name="R55" val="55" displayName="#3217" />
+            <int name="R56" val="56" displayName="#3216" />
+            <int name="R57" val="57" displayName="#2898" />
+            <int name="R58" val="58" displayName="#4134" />
+            <int name="R59" val="59" displayName="#1691" />
+            <int name="R60" val="60" displayName="#4119" />
+            <int name="R61" val="61" displayName="#7560" />
+            <int name="R62" val="62" displayName="#4334" />
+            <int name="R63" val="63" displayName="#4335" />
+            <int name="R64" val="64" displayName="#4339" />
+            <int name="R65" val="65" displayName="#5468" />
+            <int name="R66" val="66" displayName="#4443" />
+            <int name="R67" val="67" displayName="#5064" />
+            <int name="R68" val="68" displayName="#2905" />
+            <int name="R69" val="69" displayName="#2897" />
+            <int name="R70" val="70" displayName="#10" />
+            <int name="R71" val="71" displayName="#4370" />
+        </list>
+        <list name="trane:Enumeration/ChillerPowerSource">
+            <int name="R0" val="0" displayName="#2758" />
+            <int name="R1" val="1" displayName="#3460" />
+        </list>
+        <list name="trane:Enumeration/ChillerRunMode">
+            <int name="R0" val="0" displayName="#7740" />
+            <int name="R1" val="1" displayName="#7741" />
+            <int name="R2" val="2" displayName="#7742" />
+            <int name="R3" val="3" displayName="#7743" />
+        </list>
+        <list name="trane:Enumeration/Clear_Auto">
+            <int name="R0" val="0" displayName="#2255" />
+            <int name="R1" val="1" displayName="#4328" />
+        </list>
+        <list name="trane:Enumeration/Closed_Open">
+            <int name="R0" val="0" displayName="#109" />
+            <int name="R1" val="1" displayName="#1841" />
+        </list>
+        <list name="trane:Enumeration/CompressorOperatingMode">
+            <int name="R0" val="0" displayName="#1054" />
+            <int name="R1" val="1" displayName="#1055" />
+            <int name="R2" val="2" displayName="#1056" />
+            <int name="R3" val="3" displayName="#1057" />
+            <int name="R4" val="4" displayName="#1058" />
+            <int name="R5" val="5" displayName="#2878" />
+            <int name="R6" val="6" displayName="#669" />
+            <int name="R7" val="7" displayName="#1067" />
+            <int name="R8" val="8" displayName="#1068" />
+            <int name="R9" val="9" displayName="#1069" />
+            <int name="R10" val="10" displayName="#1070" />
+            <int name="R11" val="11" displayName="#1071" />
+            <int name="R12" val="12" displayName="#1682" />
+        </list>
+        <list name="trane:Enumeration/ControlType">
+            <int name="R0" val="0" displayName="#2614" />
+            <int name="R1" val="1" displayName="#2615" />
+        </list>
+        <list name="trane:Enumeration/CoolingType">
+            <int name="R0" val="0" displayName="#12667" />
+            <int name="R1" val="1" displayName="#12668" />
+        </list>
+        <list name="trane:Enumeration/CoolingHeatingMode">
+            <int name="R0" val="0" displayName="#2501" />
+            <int name="R1" val="1" displayName="#2502" />
+        </list>
+        <list name="trane:Enumeration/Current_Voltage_NotInstalled">
+            <int name="R0" val="0" displayName="#3685" />
+            <int name="R1" val="1" displayName="#3686" />
+            <int name="R2" val="2" displayName="#2745" />
+        </list>
+        <list name="trane:Enumeration/Delta_HPC">
+            <int name="R0" val="0" displayName="#157" />
+            <int name="R1" val="1" displayName="#2859" />
+        </list>
+        <list name="trane:Enumeration/DiagnosticSeverity">
+            <int name="R0" val="0" displayName="#1559" />
+            <int name="R1" val="1" displayName="#1560" />
+            <int name="R2" val="2" displayName="#7393" />
+        </list>
+        <list name="trane:Enumeration/DryRun">
+            <int name="R0" val="0" displayName="#667" />
+            <int name="R1" val="1" displayName="#3141" />
+            <int name="R2" val="2" displayName="#3142" />
+            <int name="R3" val="3" displayName="#3143" />
+            <int name="R4" val="4" displayName="#3144" />
+            <int name="R5" val="5" displayName="#3145" />
+        </list>
+        <list name="trane:Enumeration/Enable_Disable">
+            <int name="R0" val="0" displayName="#667" />
+            <int name="R1" val="1" displayName="#668" />
+        </list>
+        <list name="trane:Enumeration/Fault_NoFault">
+            <int name="R0" val="0" displayName="#3485" />
+            <int name="R1" val="1" displayName="#3486" />
+        </list>
+        <list name="trane:Enumeration/Fixed_Auto">
+            <int name="R0" val="0" displayName="#3258" />
+            <int name="R1" val="1" displayName="#2255" />
+        </list>
+        <list name="trane:Enumeration/Flow_NoFlow">
+            <int name="R0" val="0" displayName="#1688" />
+            <int name="R1" val="1" displayName="#1687" />
+        </list>
+        <list name="trane:Enumeration/Front_External_Tracer">
+            <int name="R0" val="0" displayName="#671" />
+            <int name="R1" val="1" displayName="#672" />
+            <int name="R2" val="2" displayName="#3697" />
+        </list>
+        <list name="trane:Enumeration/Good_Tripped">
+            <int name="R0" val="0" displayName="#231" />
+            <int name="R1" val="1" displayName="#232" />
+        </list>
+        <list name="trane:Enumeration/Heat_Cool">
+            <int name="R0" val="0" displayName="#4763" />
+            <int name="R1" val="1" displayName="#4762" />
+        </list>
+        <list name="trane:Enumeration/ICSChillerRunMode">
+            <int name="R0" val="0" displayName="#7921" />
+            <int name="R1" val="1" displayName="#7922" />
+            <int name="R2" val="2" displayName="#7923" />
+            <int name="R3" val="3" displayName="#7924" />
+        </list>
+        <list name="trane:Enumeration/InhibitType">
+            <int name="R0" val="0" displayName="#3056" />
+            <int name="R1" val="1" displayName="#3057" />
+        </list>
+        <list name="trane:Enumeration/Installed_NotInstalled">
+            <int name="R0" val="0" displayName="#3691" />
+            <int name="R1" val="1" displayName="#2745" />
+        </list>
+        <list name="trane:Enumeration/LCICDiagnosticEncoding">
+            <int name="R0" val="0" displayName="#7930" />
+            <int name="R1" val="1" displayName="#7931" />
+        </list>
+        <list name="trane:Enumeration/Language">
+            <int name="R0" val="0" displayName="#2228" />
+            <int name="R1" val="1" displayName="#2229" />
+            <int name="R2" val="2" displayName="#3689" />
+        </list>
+        <list name="trane:Enumeration/Load_unload">
+            <int name="R0" val="0" displayName="#233" />
+            <int name="R1" val="1" displayName="#234" />
+        </list>
+        <list name="trane:Enumeration/Local_Remote">
+            <int name="R0" val="0" displayName="#1040" />
+            <int name="R1" val="1" displayName="#1041" />
+        </list>
+        <list name="trane:Enumeration/MODBUSICSStopBits">
+            <int name="R1" val="1" displayName="#7982" />
+            <int name="R2" val="2" displayName="#7983" />
+        </list>
+        <list name="trane:Enumeration/MODUBSICSParity">
+            <int name="R0" val="0" displayName="#7977" />
+            <int name="R1" val="1" displayName="#7978" />
+            <int name="R2" val="2" displayName="#7979" />
+            <int name="R3" val="3" displayName="#7980" />
+            <int name="R4" val="4" displayName="#7981" />
+        </list>
+        <list name="trane:Enumeration/Manual_Auto">
+            <int name="R0" val="0" displayName="#2364" />
+            <int name="R1" val="1" displayName="#2255" />
+        </list>
+        <list name="trane:Enumeration/MaunfacturingLocation">
+            <int name="R2" val="2" displayName="#4556" />
+            <int name="R3" val="3" displayName="#4557" />
+            <int name="R14" val="14" displayName="#4574" />
+        </list>
+        <list name="trane:Enumeration/ModelInformation">
+            <int name="R0" val="0" displayName="#12697" />
+            <int name="R1" val="1" displayName="#12686" />
+            <int name="R2" val="2" displayName="#8942" />
+            <int name="R3" val="3" displayName="#4041" />
+            <int name="R4" val="4" displayName="#4042" />
+            <int name="R5" val="5" displayName="#12698" />
+            <int name="R6" val="6" displayName="#12687" />
+            <int name="R7" val="7" displayName="#12688" />
+            <int name="R8" val="8" displayName="#12689" />
+            <int name="R9" val="9" displayName="#12690" />
+            <int name="R10" val="10" displayName="#12691" />
+            <int name="R11" val="11" displayName="#12692" />
+            <int name="R12" val="12" displayName="#12693" />
+            <int name="R13" val="13" displayName="#12694" />
+            <int name="R14" val="14" displayName="#12695" />
+            <int name="R15" val="15" displayName="#12696" />
+        </list>
+        <list name="trane:Enumeration/NotLocked_Locked">
+            <int name="R0" val="0" displayName="#670" />
+            <int name="R1" val="1" displayName="#669" />
+        </list>
+        <list name="trane:Enumeration/Odd_Even">
+            <int name="R1" val="1" displayName="#6851" />
+            <int name="R2" val="2" displayName="#6852" />
+        </list>
+        <list name="trane:Enumeration/Off_Auto_On">
+            <int name="R0" val="0" displayName="#51" />
+            <int name="R1" val="1" displayName="#2255" />
+            <int name="R2" val="2" displayName="#2256" />
+        </list>
+        <list name="trane:Enumeration/OilSensor">
+            <int name="R0" val="0" displayName="#4077" />
+            <int name="R1" val="1" displayName="#4076" />
+        </list>
+        <list name="trane:Enumeration/Open_closed">
+            <int name="R0" val="0" displayName="#109" />
+            <int name="R1" val="1" displayName="#1841" />
+        </list>
+        <list name="trane:Enumeration/PumpdownCommand">
+            <int name="R0" val="0" displayName="#4132" />
+            <int name="R1" val="1" displayName="#4133" />
+        </list>
+        <list name="trane:Enumeration/PumpdownStatus">
+            <int name="R0" val="0" displayName="#1481" />
+            <int name="R1" val="1" displayName="#1482" />
+            <int name="R2" val="2" displayName="#4130" />
+            <int name="R3" val="3" displayName="#1812" />
+        </list>
+        <list name="trane:Enumeration/PurgeModes">
+            <int name="R0" val="0" displayName="#2251" />
+            <int name="R1" val="1" displayName="#2257" />
+            <int name="R2" val="2" displayName="#2255" />
+            <int name="R3" val="3" displayName="#2256" />
+        </list>
+        <list name="trane:Enumeration/PurgeRefrigerantType">
+            <int name="R0" val="0" displayName="#2260" />
+            <int name="R1" val="1" displayName="#2261" />
+            <int name="R2" val="2" displayName="#2262" />
+        </list>
+        <list name="trane:Enumeration/PurgeType">
+            <int name="R0" val="0" displayName="#2745" />
+            <int name="R1" val="1" displayName="#3696" />
+            <int name="R2" val="2" displayName="#3698" />
+        </list>
+        <list name="trane:Enumeration/RefrigerantType">
+            <int name="R0" val="0" displayName="#2261" />
+            <int name="R1" val="1" displayName="#4058" />
+            <int name="R2" val="2" displayName="#4059" />
+            <int name="R3" val="3" displayName="#2260" />
+            <int name="R4" val="4" displayName="#3695" />
+            <int name="R5" val="5" displayName="#12425" />
+            <int name="R6" val="6" displayName="#12426" />
+            <int name="R7" val="7" displayName="#2262" />
+            <int name="R8" val="8" displayName="#4060" />
+            <int name="R9" val="9" displayName="#4061" />
+            <int name="R10" val="10" displayName="#4062" />
+            <int name="R11" val="11" displayName="#12664" />
+        </list>
+        <list name="trane:Enumeration/ResetType">
+            <int name="R0" val="0" displayName="#667" />
+            <int name="R1" val="1" displayName="#3312" />
+            <int name="R2" val="2" displayName="#3311" />
+            <int name="R3" val="3" displayName="#3310" />
+        </list>
+        <list name="trane:Enumeration/ServicePumpdownStatus">
+            <int name="R0" val="0" displayName="#1481" />
+            <int name="R1" val="1" displayName="#1482" />
+            <int name="R2" val="2" displayName="#4130" />
+            <int name="R3" val="3" displayName="#1812" />
+            <int name="R4" val="4" displayName="#9328" />
+            <int name="R5" val="5" displayName="#9329" />
+        </list>
+        <list name="trane:Enumeration/SetpointSource">
+            <int name="R0" val="0" displayName="#671" />
+            <int name="R1" val="1" displayName="#672" />
+            <int name="R2" val="2" displayName="#2492" />
+            <int name="R3" val="3" displayName="#3308" />
+        </list>
+        <list name="trane:Enumeration/Source">
+            <int name="R0" val="0" displayName="#671" />
+            <int name="R1" val="1" displayName="#3308" />
+        </list>
+        <list name="trane:Enumeration/StarterType">
+            <int name="R0" val="0" displayName="#2133" />
+            <int name="R1" val="1" displayName="#2321" />
+            <int name="R2" val="2" displayName="#2741" />
+            <int name="R3" val="3" displayName="#3687" />
+        </list>
+        <list name="trane:Enumeration/Stop_Auto">
+            <int name="R0" val="0" displayName="#2251" />
+            <int name="R1" val="1" displayName="#2255" />
+        </list>
+        <list name="trane:Enumeration/Stop_Run_Arm">
+            <int name="R0" val="0" displayName="#2878" />
+            <int name="R1" val="1" displayName="#1070" />
+            <int name="R2" val="2" displayName="#2180" />
+        </list>
+        <list name="trane:Enumeration/Stop_Run_Hold_Arm_ArmHold">
+            <int name="R0" val="0" displayName="#259" />
+            <int name="R1" val="1" displayName="#1070" />
+            <int name="R2" val="2" displayName="#3422" />
+            <int name="R5" val="5" displayName="#10670" />
+            <int name="R6" val="6" displayName="#10671" />
+        </list>
+        <list name="trane:Enumeration/TemperatureUnits">
+            <int name="R0" val="0" displayName="#1576" />
+            <int name="R1" val="1" displayName="#1577" />
+        </list>
+        <list name="trane:Enumeration/TestBinary">
+            <int name="R1" val="1" displayName="#7350" />
+            <int name="R2" val="2" displayName="#7351" />
+        </list>
+        <list name="trane:Enumeration/True_False">
+            <int name="R0" val="0" displayName="#236" />
+            <int name="R1" val="1" displayName="#237" />
+        </list>
+        <list name="trane:Enumeration/UnitType">
+            <int name="R0" val="0" displayName="#8918" />
+            <int name="R1" val="1" displayName="#8919" />
+            <int name="R8" val="8" displayName="#11678" />
+        </list>
+        <list name="trane:Enumeration/Unload_Hold_Load">
+            <int name="R-1" val="-1" displayName="#233" />
+            <int name="R0" val="0" displayName="#3422" />
+            <int name="R1" val="1" displayName="#234" />
+        </list>
+        <list name="trane:Enumeration/Yes_No">
+            <int name="R0" val="0" displayName="#204" />
+            <int name="R1" val="1" displayName="#203" />
+            <int name="R0" val="0" displayName="#7919" />
+            <int name="R1" val="1" displayName="#7920" />
+        </list>
+        <list name="trane:Enumeration/Yes_No">
+            <int name="R0" val="0" displayName="#204" />
+            <int name="R1" val="1" displayName="#203" />
+            <int name="R0" val="0" displayName="#7919" />
+            <int name="R1" val="1" displayName="#7920" />
+        </list>
+        <list name="trane:Enumeration/auto_fixed">
+            <int name="R0" val="0" displayName="#2255" />
+            <int name="R1" val="1" displayName="#3258" />
+        </list>
+        <list name="trane:Enumeration/bypassvalve">
+            <int name="R0" val="0" displayName="#3422" />
+            <int name="R1" val="1" displayName="#3690" />
+            <int name="R2" val="2" displayName="#109" />
+        </list>
+        <list name="trane:Enumeration/condwatervalve">
+            <int name="R0" val="0" displayName="#2255" />
+            <int name="R1" val="1" displayName="#51" />
+            <int name="R2" val="2" displayName="#4189" />
+            <int name="R3" val="3" displayName="#254" />
+        </list>
+        <list name="trane:Enumeration/on_auto">
+            <int name="R0" val="0" displayName="#2255" />
+            <int name="R1" val="1" displayName="#2256" />
+        </list>
+        <list name="trane:Enumeration/on_off">
+            <int name="R0" val="0" displayName="#51" />
+            <int name="R1" val="1" displayName="#2256" />
+        </list>
+        <list name="trane:Enumeration/ovrdsource">
+            <int name="R0" val="0" displayName="#3279" />
+            <int name="R1" val="1" displayName="#3280" />
+            <int name="R2" val="2" displayName="#671" />
+        </list>
+        <list name="trane:Enumeration/pumpctrltype">
+            <int name="R0" val="0" displayName="#3432" />
+            <int name="R1" val="1" displayName="#3429" />
+        </list>
+        <list name="trane:Enumeration/stagingsequence">
+            <int name="R0" val="0" displayName="#3807" />
+            <int name="R1" val="1" displayName="#3808" />
+            <int name="R2" val="2" displayName="#3809" />
+            <int name="R3" val="3" displayName="#3810" />
+        </list>
+        <list name="trane:Enumeration/starttype">
+            <int name="R0" val="0" displayName="#3432" />
+            <int name="R1" val="1" displayName="#3428" />
+        </list>
+        <list name="trane:Enumeration/tripped_good">
+            <int name="R0" val="0" displayName="#231" />
+            <int name="R1" val="1" displayName="#232" />
+        </list>
+    </list>
+</obj>

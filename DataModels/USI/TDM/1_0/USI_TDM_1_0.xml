@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<usi:tdm usi:version="1.0" xmlns:usi="http://www.ni.com/Schemas/USI/1_0">
+  <usi:model usi:modelName="TDM model" usi:modelVersion="1.0">
+        <usi:include nsUri="http://www.ni.com/DataModels/USI/1_0"/>
+    <usi:entity derivation="redeclaration" name="tdm_root" superTypes="aotest">
+      <usi:attribute base="name" name="name"/>
+      <usi:attribute base="description" name="description"/>
+      <usi:attribute maxOccurs="1" minOccurs="0" name="title" type="eStringUsi"/>
+      <usi:attribute maxOccurs="1" minOccurs="0" name="author" type="eStringUsi"/>
+      <usi:attribute maxOccurs="1" minOccurs="0" name="datetime" type="eTimeUsi"/>
+      <usi:reference base="children" inverse="root" name="channelgroups" reference="tdm_channelgroup"/>
+      <usi:attribute maxOccurs="1" minOccurs="0" name="registertxt1" type="eStringUsi"/>
+      <usi:attribute maxOccurs="1" minOccurs="0" name="registertxt2" type="eStringUsi"/>
+      <usi:attribute maxOccurs="1" minOccurs="0" name="registertxt3" type="eStringUsi"/>
+      <usi:reference maxOccurs="100" minOccurs="0" inverse="root" name="registercomments" reference="registercomment" refType="aggregation"/>
+    </usi:entity>
+    <usi:entity derivation="redeclaration" name="registercomment" superTypes="aoany">
+      <usi:attribute base="name" name="name"/>
+      <usi:attribute base="description" name="description"/>
+      <usi:attribute maxOccurs="1" minOccurs="1" name="index" type="eInt16Usi"/>
+      <usi:reference maxOccurs="1" minOccurs="1" inverse="registercomments" name="root" reference="tdm_root"/>
+    </usi:entity>
+    <usi:entity derivation="redeclaration" name="tdm_channelgroup" superTypes="aomeasurement">
+      <usi:attribute base="name" name="name"/>
+      <usi:attribute base="description" name="description"/>
+      <usi:reference base="test" inverse="channelgroups" name="root" reference="tdm_root"/>
+      <usi:reference base="measurement_quantities" inverse="group" name="channels" reference="tdm_channel"/>
+      <usi:reference base="submatrices" inverse="measurement" name="submatrices" reference="submatrix"/>
+      <usi:attribute maxOccurs="1" minOccurs="0" name="registertxt1" type="eStringUsi"/>
+      <usi:attribute maxOccurs="1" minOccurs="0" name="registertxt2" type="eStringUsi"/>
+      <usi:attribute maxOccurs="1" minOccurs="0" name="registertxt3" type="eStringUsi"/>
+    </usi:entity>
+    <usi:entity derivation="redeclaration" name="tdm_channel" superTypes="aomeasurementquantity">
+      <usi:attribute base="name" name="name"/>
+      <usi:attribute base="description" name="description"/>
+      <usi:reference base="measurement" inverse="channels" name="group" reference="tdm_channelgroup"/>
+      <usi:reference base="local_columns" inverse="measurement_quantity" name="local_columns" reference="localcolumn"/>
+      <usi:attribute maxOccurs="1" minOccurs="0" name="unit_string" type="eStringUsi"/>
+      <usi:attribute base="datatype" name="datatype"/>
+      <usi:attribute base="minimum" name="minimum"/>
+      <usi:attribute base="maximum" name="maximum"/>
+      <usi:attribute maxOccurs="1" minOccurs="0" name="registerint1" type="eInt32Usi"/>
+      <usi:attribute maxOccurs="1" minOccurs="0" name="registerint2" type="eInt32Usi"/>
+      <usi:attribute maxOccurs="1" minOccurs="0" name="registerint3" type="eInt32Usi"/>
+      <usi:attribute maxOccurs="1" minOccurs="0" name="registerint4" type="eInt32Usi"/>
+      <usi:attribute maxOccurs="1" minOccurs="0" name="registerint5" type="eInt32Usi"/>
+      <usi:attribute maxOccurs="1" minOccurs="0" name="registerint6" type="eInt32Usi"/>
+      <usi:attribute maxOccurs="1" minOccurs="0" name="registerval1" type="eFloat64Usi"/>
+      <usi:attribute maxOccurs="1" minOccurs="0" name="registerval2" type="eFloat64Usi"/>
+      <usi:attribute maxOccurs="1" minOccurs="0" name="registerval3" type="eFloat64Usi"/>
+      <usi:attribute maxOccurs="1" minOccurs="0" name="registerval4" type="eFloat64Usi"/>
+      <usi:attribute maxOccurs="1" minOccurs="0" name="registerval5" type="eFloat64Usi"/>
+      <usi:attribute maxOccurs="1" minOccurs="0" name="registerval6" type="eFloat64Usi"/>
+      <usi:attribute maxOccurs="1" minOccurs="0" name="registertxt1" type="eStringUsi"/>
+      <usi:attribute maxOccurs="1" minOccurs="0" name="registertxt2" type="eStringUsi"/>
+      <usi:attribute maxOccurs="1" minOccurs="0" name="registertxt3" type="eStringUsi"/>
+    </usi:entity>
+    <usi:entity derivation="redeclaration" name="submatrix" superTypes="aosubmatrix">
+      <usi:attribute base="name" name="name"/>
+      <usi:attribute base="description" name="description"/>
+      <usi:reference base="measurement" inverse="submatrices" name="measurement" reference="tdm_channelgroup"/>
+      <usi:attribute base="number_of_rows" name="number_of_rows"/>
+      <usi:reference base="local_columns" inverse="submatrix" name="local_columns" reference="localcolumn"/>
+    </usi:entity>
+    <usi:entity derivation="redeclaration" name="localcolumn" superTypes="aolocalcolumn">
+      <usi:attribute base="name" name="name"/>
+      <usi:attribute base="description" name="description"/>
+      <usi:reference base="measurement_quantity" inverse="local_columns" name="measurement_quantity" reference="tdm_channel"/>
+      <usi:reference base="submatrix" inverse="local_columns" name="submatrix" reference="submatrix"/>
+      <usi:attribute base="flags" name="flags"/>
+      <usi:attribute base="global_flag" name="global_flag"/>
+      <usi:attribute base="independent" name="independent"/>
+      <usi:attribute base="minimum" name="minimum"/>
+      <usi:attribute base="maximum" name="maximum"/>
+      <usi:attribute base="sequence_representation" name="sequence_representation"/>
+      <usi:attribute base="generation_parameters" name="generation_parameters"/>
+      <usi:reference base="values" name="values" reference="value_sequence"/>
+    </usi:entity>
+
+  </usi:model>
+</usi:tdm>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>watchwindow</title>
+</head>
+<body style="font-size:12pt;font-family:helvetica">
+
+	<p><center><h1>Watchwindow help</h1></center></p>
+	
+	<p>Watchwindow not only shows the value of all selected points, but also controls the corresponding operations of each point in oscilloscope and log system.</p>
+	<br/>
+	
+	<p><h1>Name column</h1></p>
+	<p>Show the names of points. The name is formed by channel name + "_" + point name to distinguish same points from different channels.</p>
+	<p><b>Note: </b>Clicking the name will bolder the corresponding curve in oscilloscope and bring it to the very front.</p>
+	<br/>
+	
+  <p><h1>Value column</h1></p>
+	<p>1. Show the real-time value of this point. If the value is changed, the background will be yellow. If 500 ms has passed and value 
+	is not changed, the background color will be changed back to normal.</p>
+	<p>2. Double-clicking the cell can enter the editing mode. The user can change the value of this point, press enter or somewhere else 
+	can quit the editing mode and send the value to transmission plugin. The plugin will handle the concrete send job.</p>
+	<p><b>Note: </b>"NA" means the value is invalid. Write "NA" to the cell will set this point value invalid. 
+	All values are "NA" when first time instantiated. </p>
+	<p>"CL" means the point is "comm loss". Not all plugins support this.</p>
+	<br/>
+	
+	<p><h1>Curve color</h1></p>
+	<p>Change the color of the corresponding curve if visible in Oscilloscope. Clicking the button will open the pallet. The number show the corresponding RGB value.</p>
+	<br/>
+	
+	<p><h1>Scope</h1></p>
+	<p>Check/uncheck will set the corresponding curve visible/invisible in Oscilloscope</p>
+	<p><b>Note: </b>If unchecked, all curve data will be lost. The curve will begin at the time when checked instead of zero x-axis.</p>
+	<br/>
+	
+	<p><h1>Curve Gain and Offset</h1></p>
+	<p>The Y value of curve in Oscilloscope = real value * Curve Gain + Curve offset. </p>
+	<br/>
+	
+	<p><h1>Log</h1></p>
+	<p>Check/uncheck will begin/stop logging the datas of this point</p>
+	<br/>
+	
+</body>
+</html>

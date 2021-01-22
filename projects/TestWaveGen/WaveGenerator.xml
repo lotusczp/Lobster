@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<obj is="TestTransmission">
+
+  <list is="TestPoints">
+    <obj is="Sine wave">
+      <real name="amplitude"     val="100" />
+      <real name="period"        val="2" />
+    </obj>
+    
+    <obj is="Sawtooth wave">
+      <real name="amplitude"     val="100" />
+      <real name="period"        val="2" />
+    </obj>
+  </list>
+    
+</obj>

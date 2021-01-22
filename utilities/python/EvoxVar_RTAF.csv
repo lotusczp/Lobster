@@ -1,0 +1,9 @@
+PointName,Href,ValueType,Slope,Offset,Authority,Nickname
+Current Setpoint Cprsr1A,/evox/var/Cmprsr1CurrentStpt/,real,1,0,ReadOnly,NULL
+Fan Control Diff Pressure Setpoint,/evox/var/CndFan1FanCtrlDiffPressStpt/,real,1,0,ReadWrite,NULL
+0x00010002,Auto,real,1,0,ReadWrite,AAA
+0x00010003,Auto,real,1,0,ReadWrite,BBB
+0x00010004,Auto,real,1,0,ReadWrite,CCC
+0x0401000D,Auto,real,1,0,ReadWrite,DDD
+0x04010029,Auto,real,1,0,ReadWrite,EEE
+0x22010068,Auto,real,1,0,ReadWrite,FFF

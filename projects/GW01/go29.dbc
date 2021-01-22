@@ -1,0 +1,355 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_:
+
+
+BO_ 293 MCU10: 8 Vector__XXX
+ SG_ MCU10_Damp_DeltaSpd : 38|15@0+ (1,-14000) [-14000|14000] "" Vector__XXX
+ SG_ MCU10_TM_DampRotSpd : 55|16@0+ (1,-14000) [-14000|14000] "rpm" Vector__XXX
+ SG_ MCU10_StallInput_Torque : 17|11@0+ (0.5,-300) [-300|723.5] "" Vector__XXX
+ SG_ MCU10_SetpointValue : 12|11@0+ (0.5,-300) [-300|723.5] "" Vector__XXX
+ SG_ MCU10_ActDap_Trq : 7|11@0+ (0.5,-300) [-300|723.5] "" Vector__XXX
+
+BO_ 700 GW1: 8 Vector__XXX
+ SG_ GW1_NetworkState_GW : 7|4@0+ (1,0) [0|15] "." Vector__XXX
+
+BO_ 329 ESP1: 8 Vector__XXX
+ SG_ ESP1_VDCActive : 20|1@0+ (1,0) [0|1] "/" Vector__XXX
+ SG_ ESP1_PTCActive : 22|1@0+ (1,0) [0|1] "/" Vector__XXX
+ SG_ ESP1_BTCActive : 23|1@0+ (1,0) [0|1] "/" Vector__XXX
+
+BO_ 613 ESP_ABS3: 8 Vector__XXX
+ SG_ ESP_ABS3_VehicleSpeed : 12|13@0+ (0.05625,0) [0|360] "km/h" Vector__XXX
+ SG_ ESP_ABS3_ABSActive : 27|1@0+ (1,0) [0|1] "/" Vector__XXX
+
+BO_ 582 ESP_ABS2: 8 Vector__XXX
+ SG_ ESP_ABS2_RRWheelSpd : 28|13@0+ (0.05625,0) [0|299.98125] "km/h" Vector__XXX
+ SG_ ESP_ABS2_RLWheelSpd : 12|13@0+ (0.05625,0) [0|299.98125] "km/h" Vector__XXX
+
+BO_ 561 ESP_ABS1: 8 Vector__XXX
+ SG_ ESP_ABS1_FRWheelSpd : 28|13@0+ (0.05625,0) [0|299.98125] "km/h" Vector__XXX
+ SG_ ESP_ABS1_FLWheelSpd : 12|13@0+ (0.05625,0) [0|299.98125] "km/h" Vector__XXX
+
+BO_ 741 MCU9: 8 Vector__XXX
+ SG_ MCU9_TM_ActHvCurr_RM : 15|15@0+ (0.1,-1000) [-1000|1000] "A" Vector__XXX
+ SG_ MCU9_TM_Tempwarning_RM : 54|1@0+ (1,0) [0|1] "/" Vector__XXX
+ SG_ MCU9_TM_InvTempwarning_RM : 55|1@0+ (1,0) [0|1] "/" Vector__XXX
+ SG_ MCU9_TM_ActTemp_RM : 47|8@0+ (1,-40) [-40|210] "℃" Vector__XXX
+ SG_ MCU9_TM_ActHvVolt_RM : 31|16@0+ (0.1,0) [0|6000] "V" Vector__XXX
+ SG_ MCU9_RollingCounter : 59|4@0+ (1,0) [0|15] "/" Vector__XXX
+ SG_ MCU9_CheckSum : 7|8@0+ (1,0) [0|255] "/" Vector__XXX
+
+BO_ 739 MCU8: 8 Vector__XXX
+ SG_ MCU8_TM_OperMode_RM : 13|3@0+ (1,0) [0|7] "/" Vector__XXX
+ SG_ MCU8_TM_InvActTemp_RM : 23|8@0+ (1,-40) [-40|210] "℃" Vector__XXX
+ SG_ MCU8_TM_Amount_RM : 15|2@0+ (1,0) [0|3] "/" Vector__XXX
+ SG_ MCU8_TM_ActTrq_RM : 47|16@0+ (0.1,-2000) [-2000|2000] "Nm" Vector__XXX
+ SG_ MCU8_TM_ActRotSpd_RM : 31|16@0+ (1,-20000) [-20000|20000] "rpm" Vector__XXX
+ SG_ MCU8_RollingCounter : 63|8@0+ (1,0) [0|255] "/" Vector__XXX
+ SG_ MCU8_CheckSum : 7|8@0+ (1,0) [0|255] "/" Vector__XXX
+
+BO_ 208 MCU7: 8 Vector__XXX
+ SG_ MCU7_TM_RotlDir : 61|2@0+ (1,0) [0|3] "/" Vector__XXX
+ SG_ MCU7_TM_PosAvailTrqMax_10s : 55|9@0+ (1,0) [0|300] "Nm" Vector__XXX
+ SG_ MCU7_TM_NegAvailTrqMax_10s : 32|9@0+ (1,-300) [-300|0] "Nm" Vector__XXX
+ SG_ MCU7_TM_EffPedelTrq : 22|7@0+ (0.01,0) [0|1] "/" Vector__XXX
+ SG_ MCU7_TM_Antslipsts : 33|1@0+ (1,0) [0|1] "/" Vector__XXX
+ SG_ MCU7_TM_ActPosTrq : 15|9@0+ (0.5,0) [0|255.5] "Nm" Vector__XXX
+ SG_ MCU7_TM_ActPosRotSpd : 31|14@0+ (1,0) [0|14000] "rpm" Vector__XXX
+ SG_ MCU7_RollingCounter : 59|4@0+ (1,0) [0|15] "/" Vector__XXX
+ SG_ MCU7_CheckSum : 7|8@0+ (1,0) [0|255] "/" Vector__XXX
+
+BO_ 963 MCU6: 8 Vector__XXX
+ SG_ MCU6_SwVersion6 : 55|8@0+ (1,0) [0|255] "/" Vector__XXX
+ SG_ MCU6_SwVersion5 : 47|8@0+ (1,0) [0|255] "/" Vector__XXX
+ SG_ MCU6_SwVersion4 : 39|8@0+ (1,0) [0|255] "/" Vector__XXX
+ SG_ MCU6_SwVersion3 : 31|8@0+ (1,0) [0|255] "/" Vector__XXX
+ SG_ MCU6_SwVersion2 : 23|8@0+ (1,0) [0|255] "/" Vector__XXX
+ SG_ MCU6_SwVersion1 : 15|8@0+ (1,0) [0|255] "/" Vector__XXX
+ SG_ MCU6_SwVersion0 : 7|8@0+ (1,0) [0|255] "/" Vector__XXX
+
+BO_ 640 MCU5: 8 Vector__XXX
+ SG_ MCU5_TM_InvActTemp : 23|8@0+ (1,-40) [-40|214] "℃" Vector__XXX
+ SG_ MCU5_TM_ActTemp : 15|8@0+ (1,-40) [-40|214] "℃" Vector__XXX
+ SG_ MCU5_RollingCounter : 59|4@0+ (1,0) [0|15] "/" Vector__XXX
+ SG_ MCU5_NetworkState : 63|4@0+ (1,0) [0|15] "/" Vector__XXX
+ SG_ MCU5_CheckSum : 7|8@0+ (1,0) [0|255] "/" Vector__XXX
+
+BO_ 210 MCU4: 8 Vector__XXX
+ SG_ MCU4_TM_PosAvailTrqMax : 55|9@0+ (1,0) [0|300] "Nm" Vector__XXX
+ SG_ MCU4_TM_NegAvailTrqMax : 32|9@0+ (1,-300) [-300|0] "Nm" Vector__XXX
+ SG_ MCU4_TM_EffReqTrq : 39|7@0+ (0.01,0) [0|1] "/" Vector__XXX
+ SG_ MCU4_TM_ActHvVolt : 19|10@0+ (1,0) [0|1000] "V" Vector__XXX
+ SG_ MCU4_TM_ActHvCurr : 15|12@0+ (1,-1000) [-1000|1000] "A" Vector__XXX
+ SG_ MCU4_RollingCounter : 59|4@0+ (1,0) [0|15] "/" Vector__XXX
+ SG_ MCU4_CheckSum : 7|8@0+ (1,0) [0|255] "/" Vector__XXX
+
+BO_ 251 MCU3: 8 Vector__XXX
+ SG_ MCU3_TM_SysErr : 27|1@0+ (1,0) [0|1] "/" Vector__XXX
+ SG_ MCU3_TM_OperMod : 31|4@0+ (1,0) [0|15] "/" Vector__XXX
+ SG_ MCU3_TM_hillholdsts : 63|1@0+ (1,0) [0|1] "/" Vector__XXX
+ SG_ MCU3_TM_FailSts : 26|3@0+ (1,0) [0|7] "/" Vector__XXX
+ SG_ MCU3_TM_FailCode : 39|8@0+ (1,0) [0|255] "/" Vector__XXX
+ SG_ MCU3_TM_ActTrq : 47|11@0+ (0.5,-300) [-300|723.5] "Nm" Vector__XXX
+ SG_ MCU3_TM_ActRotSpd : 15|16@0+ (1,-14000) [-14000|14000] "rpm" Vector__XXX
+ SG_ MCU3_RollingCounter : 59|4@0+ (1,0) [0|15] "/" Vector__XXX
+ SG_ MCU3_CheckSum : 7|8@0+ (1,0) [0|255] "/" Vector__XXX
+
+BO_ 644 MCU1: 8 Vector__XXX
+ SG_ MCU1_TM_PosAvailTrqMax_5s : 54|9@0+ (1,0) [0|300] "Nm" Vector__XXX
+ SG_ MCU1_TM_OffsetAngle : 15|12@0+ (0.0878907,0) [0|359.912] "" Vector__XXX
+ SG_ MCU1_TM_NegAvailTrqMax_5s : 47|9@0+ (1,-300) [-300|0] "Nm" Vector__XXX
+ SG_ MCU1_TM_MotorPower : 17|10@0+ (1,-200) [-200|200] "KW" Vector__XXX
+ SG_ MCU1_TM_Derating_UnderVolt : 36|1@0+ (1,0) [0|1] "1" Vector__XXX
+ SG_ MCU1_TM_Derating_OverVolt : 35|1@0+ (1,0) [0|1] "/" Vector__XXX
+ SG_ MCU1_TM_Derating_OverCurr_Pos : 37|1@0+ (1,0) [0|1] "/" Vector__XXX
+ SG_ MCU1_TM_Derating_OverCurr_Neg : 38|1@0+ (1,0) [0|1] "/" Vector__XXX
+ SG_ MCU1_TM_Derating_MotorOverTemp : 39|1@0+ (1,0) [0|1] "/" Vector__XXX
+ SG_ MCU1_TM_CalOffsetAngleReq : 32|1@0+ (1,0) [0|1] "/" Vector__XXX
+ SG_ MCU1_RollingCounter : 59|4@0+ (1,0) [0|15] "/" Vector__XXX
+ SG_ MCU1_MCU_lockrotorsts : 34|1@0+ (1,0) [0|1] "/" Vector__XXX
+ SG_ MCU1_CheckSum : 7|8@0+ (1,0) [0|255] "/" Vector__XXX
+
+BO_ 791 OBC2: 8 Vector__XXX
+ SG_ OBC2_NetworkState_OBC : 63|4@0+ (1,0) [0|15] "/" Vector__XXX
+
+BO_ 655 BMS3: 8 Vector__XXX
+ SG_ BMS3_NetworkState_BMS : 63|4@0+ (1,0) [0|15] "/" Vector__XXX
+
+BO_ 212 VCU6: 8 Vector__XXX
+ SG_ VCU6_MCUPredictTrq : 55|11@0+ (0.5,-300) [-300|300] "11" Vector__XXX
+ SG_ VCU6_Antslip : 60|1@0+ (1,0) [0|1] "/" Vector__XXX
+
+BO_ 660 VCU3: 8 Vector__XXX
+ SG_ VCU3_MCUCoolantTEMP : 31|8@0+ (1,-40) [-40|130] "℃" Vector__XXX
+ SG_ VCU3_SysFault : 50|2@0+ (1,0) [0|3] "/" Vector__XXX
+ SG_ VCU3_RollingCounter : 59|4@0+ (1,0) [0|15] "/" Vector__XXX
+ SG_ VCU3_NetworkState : 15|4@0+ (1,0) [0|15] "/" Vector__XXX
+ SG_ VCU3_CheckSum : 7|8@0+ (1,0) [0|255] "/" Vector__XXX
+
+BO_ 404 VCU2: 8 Vector__XXX
+ SG_ VCU2_MCUTrqSetPoint : 31|11@0+ (0.5,-300) [-300|300] "Nm" Vector__XXX
+ SG_ VCU2_TestFLag : 7|4@0+ (1,0) [0|15] "" Vector__XXX
+ SG_ VCU2_GearSts : 23|4@0+ (1,0) [0|15] "/" Vector__XXX
+
+BO_ 207 VCU1: 8 Vector__XXX
+ SG_ VCU1_MCUTrqSetPoint : 15|11@0+ (0.5,-300) [-300|300] "Nm" Vector__XXX
+ SG_ VCU1_MCUModReq : 19|4@0+ (1,0) [0|15] "/" Vector__XXX
+ SG_ VCU1_HillHold : 63|1@0+ (1,0) [0|1] "/" Vector__XXX
+ SG_ VCU1_CrashOutputSts : 20|1@0+ (1,0) [0|1] "/" Vector__XXX
+ SG_ VCU1_ChrgEnable : 27|1@0+ (1,0) [0|1] "/" Vector__XXX
+ SG_ VCU1_BMSEmgyToShutDown : 31|1@0+ (1,0) [0|1] "/" Vector__XXX
+ SG_ VCU1_RollingCounter : 59|4@0+ (1,0) [0|15] "/" Vector__XXX
+ SG_ VCU1_CheckSum : 7|8@0+ (1,0) [0|255] "/" Vector__XXX
+
+
+
+CM_ SG_ 329 ESP1_VDCActive "Vehicle dynamic control function is active, and ESP sytem currently perform active brake intervention.";
+CM_ SG_ 582 ESP_ABS2_RLWheelSpd "Rear left wheel speed";
+CM_ SG_ 561 ESP_ABS1_FRWheelSpd "Front right wheel speed";
+CM_ SG_ 561 ESP_ABS1_FLWheelSpd "Front left wheel speed";
+CM_ SG_ 741 MCU9_TM_ActTemp_RM "Actual temperature of TM(Traction Motor) for  remote monitor";
+CM_ SG_ 741 MCU9_TM_ActHvVolt_RM "actual HV voltage at TM(Traction Motor) for  remote monitor";
+CM_ SG_ 741 MCU9_CheckSum "Use the checksum strategy from document“GWMLAN00-18 Checksum Req Spec-V1.0” ";
+CM_ SG_ 739 MCU8_TM_OperMode_RM "Actual working mode of E-motor for  remote monitor";
+CM_ SG_ 739 MCU8_TM_Amount_RM "Actual amount of E-motor for  remote monitor";
+CM_ SG_ 739 MCU8_TM_ActTrq_RM "actual torque TM(Traction Motor)for  remote monitor ";
+CM_ SG_ 739 MCU8_TM_ActRotSpd_RM "actual rotation speed TM(Traction Motor) for  remote monitor";
+CM_ SG_ 208 MCU7_TM_EffPedelTrq "MCU  Pedel-Trque efficiency";
+CM_ SG_ 208 MCU7_TM_Antslipsts "Anti-slip regulation of TM(Traction Motor)";
+CM_ SG_ 208 MCU7_TM_ActPosTrq "Actual Positive torque TM(Traction Motor) ";
+CM_ SG_ 208 MCU7_TM_ActPosRotSpd "Actual Positive rotation speed TM(Traction Motor) ";
+CM_ SG_ 208 MCU7_CheckSum "Use the checksum strategy from document“GWMLAN00-18 Checksum Req Spec-V1.0” ";
+CM_ SG_ 640 MCU5_TM_InvActTemp "Actual temperature of inverter";
+CM_ SG_ 640 MCU5_TM_ActTemp "Actual temperature of TM(Traction Motor) ";
+CM_ SG_ 640 MCU5_CheckSum "Use the checksum strategy from document“GWMLAN00-18 Checksum Req Spec-V1.0” ";
+CM_ SG_ 210 MCU4_TM_NegAvailTrqMax "maximum negative torque available (generator) for Torque requests";
+CM_ SG_ 210 MCU4_TM_EffReqTrq " Request for Trque Efficiency";
+CM_ SG_ 210 MCU4_TM_ActHvVolt "actual HV voltage at TM(Traction Motor) ";
+CM_ SG_ 210 MCU4_TM_ActHvCurr "actual HV current at TM(Traction Motor) ";
+CM_ SG_ 210 MCU4_CheckSum "Use the checksum strategy from document“GWMLAN00-18 Checksum Req Spec-V1.0” ";
+CM_ SG_ 251 MCU3_TM_OperMod "Operation mode of TM(Traction Motor) ";
+CM_ SG_ 251 MCU3_TM_FailSts "TM(Traction Motor)  Fail state";
+CM_ SG_ 251 MCU3_TM_ActRotSpd "actual rotation speed TM(Traction Motor) ";
+CM_ SG_ 251 MCU3_CheckSum "Use the checksum strategy from document“GWMLAN00-18 Checksum Req Spec-V1.0” ";
+CM_ SG_ 644 MCU1_TM_OffsetAngle "Offset angle ";
+CM_ SG_ 644 MCU1_TM_NegAvailTrqMax_5s "maximum negative  available torque at actual speed of duration: 5 seconds";
+CM_ SG_ 644 MCU1_TM_MotorPower "The power of motor";
+CM_ SG_ 644 MCU1_TM_Derating_OverVolt "Derating because of over voltage HV";
+CM_ SG_ 644 MCU1_TM_Derating_MotorOverTemp "Derating because of over temperature e-machine(Motor)";
+CM_ SG_ 644 MCU1_CheckSum "Use the checksum strategy from document“GWMLAN00-18 Checksum Req Spec-V1.0” ";
+CM_ SG_ 212 VCU6_MCUPredictTrq "Predicted Set point torque of MCU";
+CM_ SG_ 660 VCU3_SysFault "Active when Vehicle system is in error state";
+CM_ SG_ 404 VCU2_MCUTrqSetPoint "Set point torque of MCU";
+CM_ SG_ 207 VCU1_MCUTrqSetPoint "Set point torque of MCU";
+CM_ SG_ 207 VCU1_BMSEmgyToShutDown "0x0:No Request0x1:Request";
+CM_ SG_ 207 VCU1_CheckSum "Use the checksum strategy from document“GWMLAN00-18 Checksum Req Spec-V1.0” ";
+BA_DEF_  "BusType" STRING ;
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 65535;
+BA_DEF_ SG_  "GenSigStartValue" FLOAT -3.4E+038 3.4E+038;
+BA_DEF_DEF_  "BusType" "CAN";
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "GenSigStartValue" 0;
+BA_ "BusType" "CAN";
+BA_ "GenMsgCycleTime" BO_ 207 10;
+BA_ "GenSigStartValue" SG_ 293 MCU10_Damp_DeltaSpd 14000;
+BA_ "GenSigStartValue" SG_ 293 MCU10_TM_DampRotSpd 14000;
+BA_ "GenSigStartValue" SG_ 293 MCU10_StallInput_Torque 600;
+BA_ "GenSigStartValue" SG_ 293 MCU10_SetpointValue 600;
+BA_ "GenSigStartValue" SG_ 293 MCU10_ActDap_Trq 600;
+BA_ "GenSigStartValue" SG_ 700 GW1_NetworkState_GW 0;
+BA_ "GenSigStartValue" SG_ 329 ESP1_VDCActive 0;
+BA_ "GenSigStartValue" SG_ 329 ESP1_PTCActive 0;
+BA_ "GenSigStartValue" SG_ 329 ESP1_BTCActive 0;
+BA_ "GenSigStartValue" SG_ 613 ESP_ABS3_VehicleSpeed 0;
+BA_ "GenSigStartValue" SG_ 613 ESP_ABS3_ABSActive 0;
+BA_ "GenSigStartValue" SG_ 582 ESP_ABS2_RRWheelSpd 0;
+BA_ "GenSigStartValue" SG_ 582 ESP_ABS2_RLWheelSpd 0;
+BA_ "GenSigStartValue" SG_ 561 ESP_ABS1_FRWheelSpd 0;
+BA_ "GenSigStartValue" SG_ 561 ESP_ABS1_FLWheelSpd 0;
+BA_ "GenSigStartValue" SG_ 741 MCU9_TM_ActHvCurr_RM 10000;
+BA_ "GenSigStartValue" SG_ 741 MCU9_TM_Tempwarning_RM 0;
+BA_ "GenSigStartValue" SG_ 741 MCU9_TM_InvTempwarning_RM 0;
+BA_ "GenSigStartValue" SG_ 741 MCU9_TM_ActTemp_RM 40;
+BA_ "GenSigStartValue" SG_ 741 MCU9_TM_ActHvVolt_RM 0;
+BA_ "GenSigStartValue" SG_ 741 MCU9_RollingCounter 0;
+BA_ "GenSigStartValue" SG_ 741 MCU9_CheckSum 0;
+BA_ "GenSigStartValue" SG_ 739 MCU8_TM_OperMode_RM 0;
+BA_ "GenSigStartValue" SG_ 739 MCU8_TM_InvActTemp_RM 40;
+BA_ "GenSigStartValue" SG_ 739 MCU8_TM_Amount_RM 0;
+BA_ "GenSigStartValue" SG_ 739 MCU8_TM_ActTrq_RM 20000;
+BA_ "GenSigStartValue" SG_ 739 MCU8_TM_ActRotSpd_RM 20000;
+BA_ "GenSigStartValue" SG_ 739 MCU8_RollingCounter 0;
+BA_ "GenSigStartValue" SG_ 739 MCU8_CheckSum 0;
+BA_ "GenSigStartValue" SG_ 208 MCU7_TM_RotlDir 0;
+BA_ "GenSigStartValue" SG_ 208 MCU7_TM_PosAvailTrqMax_10s 0;
+BA_ "GenSigStartValue" SG_ 208 MCU7_TM_NegAvailTrqMax_10s 300;
+BA_ "GenSigStartValue" SG_ 208 MCU7_TM_EffPedelTrq 0;
+BA_ "GenSigStartValue" SG_ 208 MCU7_TM_Antslipsts 0;
+BA_ "GenSigStartValue" SG_ 208 MCU7_TM_ActPosTrq 0;
+BA_ "GenSigStartValue" SG_ 208 MCU7_TM_ActPosRotSpd 0;
+BA_ "GenSigStartValue" SG_ 208 MCU7_RollingCounter 0;
+BA_ "GenSigStartValue" SG_ 208 MCU7_CheckSum 0;
+BA_ "GenSigStartValue" SG_ 963 MCU6_SwVersion6 0;
+BA_ "GenSigStartValue" SG_ 963 MCU6_SwVersion5 0;
+BA_ "GenSigStartValue" SG_ 963 MCU6_SwVersion4 0;
+BA_ "GenSigStartValue" SG_ 963 MCU6_SwVersion3 0;
+BA_ "GenSigStartValue" SG_ 963 MCU6_SwVersion2 0;
+BA_ "GenSigStartValue" SG_ 963 MCU6_SwVersion1 0;
+BA_ "GenSigStartValue" SG_ 963 MCU6_SwVersion0 0;
+BA_ "GenSigStartValue" SG_ 640 MCU5_TM_InvActTemp 40;
+BA_ "GenSigStartValue" SG_ 640 MCU5_TM_ActTemp 40;
+BA_ "GenSigStartValue" SG_ 640 MCU5_RollingCounter 0;
+BA_ "GenSigStartValue" SG_ 640 MCU5_NetworkState 0;
+BA_ "GenSigStartValue" SG_ 640 MCU5_CheckSum 0;
+BA_ "GenSigStartValue" SG_ 210 MCU4_TM_PosAvailTrqMax 0;
+BA_ "GenSigStartValue" SG_ 210 MCU4_TM_NegAvailTrqMax 300;
+BA_ "GenSigStartValue" SG_ 210 MCU4_TM_EffReqTrq 0;
+BA_ "GenSigStartValue" SG_ 210 MCU4_TM_ActHvVolt 0;
+BA_ "GenSigStartValue" SG_ 210 MCU4_TM_ActHvCurr 1000;
+BA_ "GenSigStartValue" SG_ 210 MCU4_RollingCounter 0;
+BA_ "GenSigStartValue" SG_ 210 MCU4_CheckSum 0;
+BA_ "GenSigStartValue" SG_ 251 MCU3_TM_SysErr 0;
+BA_ "GenSigStartValue" SG_ 251 MCU3_TM_OperMod 0;
+BA_ "GenSigStartValue" SG_ 251 MCU3_TM_hillholdsts 0;
+BA_ "GenSigStartValue" SG_ 251 MCU3_TM_FailSts 0;
+BA_ "GenSigStartValue" SG_ 251 MCU3_TM_FailCode 0;
+BA_ "GenSigStartValue" SG_ 251 MCU3_TM_ActTrq 600;
+BA_ "GenSigStartValue" SG_ 251 MCU3_TM_ActRotSpd 14000;
+BA_ "GenSigStartValue" SG_ 251 MCU3_RollingCounter 0;
+BA_ "GenSigStartValue" SG_ 251 MCU3_CheckSum 0;
+BA_ "GenSigStartValue" SG_ 644 MCU1_TM_PosAvailTrqMax_5s 0;
+BA_ "GenSigStartValue" SG_ 644 MCU1_TM_OffsetAngle 0;
+BA_ "GenSigStartValue" SG_ 644 MCU1_TM_NegAvailTrqMax_5s 300;
+BA_ "GenSigStartValue" SG_ 644 MCU1_TM_MotorPower 200;
+BA_ "GenSigStartValue" SG_ 644 MCU1_TM_Derating_UnderVolt 0;
+BA_ "GenSigStartValue" SG_ 644 MCU1_TM_Derating_OverVolt 0;
+BA_ "GenSigStartValue" SG_ 644 MCU1_TM_Derating_OverCurr_Pos 0;
+BA_ "GenSigStartValue" SG_ 644 MCU1_TM_Derating_OverCurr_Neg 0;
+BA_ "GenSigStartValue" SG_ 644 MCU1_TM_Derating_MotorOverTemp 0;
+BA_ "GenSigStartValue" SG_ 644 MCU1_TM_CalOffsetAngleReq 0;
+BA_ "GenSigStartValue" SG_ 644 MCU1_RollingCounter 0;
+BA_ "GenSigStartValue" SG_ 644 MCU1_MCU_lockrotorsts 0;
+BA_ "GenSigStartValue" SG_ 644 MCU1_CheckSum 0;
+BA_ "GenSigStartValue" SG_ 791 OBC2_NetworkState_OBC 0;
+BA_ "GenSigStartValue" SG_ 655 BMS3_NetworkState_BMS 0;
+BA_ "GenSigStartValue" SG_ 212 VCU6_MCUPredictTrq 600;
+BA_ "GenSigStartValue" SG_ 212 VCU6_Antslip 0;
+BA_ "GenSigStartValue" SG_ 660 VCU3_MCUCoolantTEMP 40;
+BA_ "GenSigStartValue" SG_ 660 VCU3_SysFault 0;
+BA_ "GenSigStartValue" SG_ 660 VCU3_RollingCounter 0;
+BA_ "GenSigStartValue" SG_ 660 VCU3_NetworkState 0;
+BA_ "GenSigStartValue" SG_ 660 VCU3_CheckSum 0;
+BA_ "GenSigStartValue" SG_ 404 VCU2_MCUTrqSetPoint 600;
+BA_ "GenSigStartValue" SG_ 404 VCU2_GearSts 0;
+BA_ "GenSigStartValue" SG_ 207 VCU1_MCUTrqSetPoint 600;
+BA_ "GenSigStartValue" SG_ 207 VCU1_MCUModReq 0;
+BA_ "GenSigStartValue" SG_ 207 VCU1_HillHold 0;
+BA_ "GenSigStartValue" SG_ 207 VCU1_CrashOutputSts 0;
+BA_ "GenSigStartValue" SG_ 207 VCU1_ChrgEnable 0;
+BA_ "GenSigStartValue" SG_ 207 VCU1_BMSEmgyToShutDown 0;
+BA_ "GenSigStartValue" SG_ 207 VCU1_RollingCounter 0;
+BA_ "GenSigStartValue" SG_ 207 VCU1_CheckSum 0;
+VAL_ 700 GW1_NetworkState_GW 15 "0x9-0xF:Reserved" 14 "0x9-0xF:Reserved" 13 "0x9-0xF:Reserved" 12 "0x9-0xF:Reserved" 11 "0x9-0xF:Reserved" 10 "0x9-0xF:Reserved" 9 "0x9-0xF:Reserved" 8 "0x8:Sleep acknowledge" 7 "0x5-0x7:Reserved" 6 "0x5-0x7:Reserved" 5 "0x5-0x7:Reserved" 4 "0x4:Sleep indication" 3 "0x3:Reserved" 2 "0x2:Normal operation" 1 "0x1:Reserved" 0 "0x0:Abnormal operation" ;
+VAL_ 329 ESP1_VDCActive 1 "Active" 0 "No Active" ;
+VAL_ 329 ESP1_PTCActive 1 "Active" 0 "No Active" ;
+VAL_ 329 ESP1_BTCActive 1 "Active" 0 "No Active" ;
+VAL_ 613 ESP_ABS3_ABSActive 1 "Active" 0 "No Active" ;
+VAL_ 741 MCU9_TM_Tempwarning_RM 1 "warning" 0 "No warning" ;
+VAL_ 741 MCU9_TM_InvTempwarning_RM 1 "warning" 0 "No warning" ;
+VAL_ 208 MCU7_TM_RotlDir 3 "Reserved" 2 "inverted 反向" 1 "consistent 同向" 0 "halt 静止" ;
+VAL_ 208 MCU7_TM_Antslipsts 1 "Active" 0 "No Active" ;
+VAL_ 640 MCU5_NetworkState 15 "0x9-0xF:Reserved" 14 "0x9-0xF:Reserved" 13 "0x9-0xF:Reserved" 12 "0x9-0xF:Reserved" 11 "0x9-0xF:Reserved" 10 "0x9-0xF:Reserved" 9 "0x9-0xF:Reserved" 8 "0x8:Sleep acknowledge" 7 "0x5-0x7:Reserved" 6 "0x5-0x7:Reserved" 5 "0x5-0x7:Reserved" 4 "0x4:Sleep indication" 3 "0x3:Reserved" 2 "0x2:Normal operation" 1 "0x1:Reserved" 0 "0x0:Abnormal operation" ;
+VAL_ 251 MCU3_TM_SysErr 1 "Error" 0 "No error" ;
+VAL_ 251 MCU3_TM_OperMod 15 "Invalid" 14 "Reserved" 13 "Reserved" 12 "Reserved" 11 "Faulure" 10 "Calibrate offset angle" 9 "Reserved" 8 "Afterrun" 7 "Discharge" 6 "IsolationDetection" 5 "SpdCtl" 4 "TrqCtl" 3 "Standby" 2 "PreCharge" 1 "Init" 0 "Reserved" ;
+VAL_ 251 MCU3_TM_hillholdsts 1 "Active" 0 "No Active" ;
+VAL_ 251 MCU3_TM_FailSts 7 "0x5-0x7:Reserved" 6 "0x5-0x7:Reserved" 5 "0x5-0x7:Reserved" 4 "Emergency shutdown" 3 "Fail Silent disable" 2 "Quite Enable" 1 "Limited Operation failure" 0 "No error" ;
+VAL_ 644 MCU1_TM_Derating_UnderVolt 1 "Active" 0 "No Active" ;
+VAL_ 644 MCU1_TM_Derating_OverVolt 1 "Active" 0 "No Active" ;
+VAL_ 644 MCU1_TM_Derating_OverCurr_Pos 1 "Active" 0 "No Active" ;
+VAL_ 644 MCU1_TM_Derating_OverCurr_Neg 1 "Active" 0 "No Active" ;
+VAL_ 644 MCU1_TM_Derating_MotorOverTemp 1 "Active" 0 "No Active" ;
+VAL_ 644 MCU1_TM_CalOffsetAngleReq 1 "Active" 0 "No Active" ;
+VAL_ 791 OBC2_NetworkState_OBC 15 "0x9-0xF:Reserved" 14 "0x9-0xF:Reserved" 13 "0x9-0xF:Reserved" 12 "0x9-0xF:Reserved" 11 "0x9-0xF:Reserved" 10 "0x9-0xF:Reserved" 9 "0x9-0xF:Reserved" 8 "0x8:Sleep acknowledge" 7 "0x5-0x7:Reserved" 6 "0x5-0x7:Reserved" 5 "0x5-0x7:Reserved" 4 "0x4:Sleep indication" 3 "0x3:Reserved" 2 "0x2:Normal operation" 1 "0x1:Reserved" 0 "0x0:Abnormal operation" ;
+VAL_ 655 BMS3_NetworkState_BMS 15 "0x9-0xF:Reserved" 14 "0x9-0xF:Reserved" 13 "0x9-0xF:Reserved" 12 "0x9-0xF:Reserved" 11 "0x9-0xF:Reserved" 10 "0x9-0xF:Reserved" 9 "0x9-0xF:Reserved" 8 "0x8:Sleep acknowledge" 7 "0x5-0x7:Reserved" 6 "0x5-0x7:Reserved" 5 "0x5-0x7:Reserved" 4 "0x4:Sleep indication" 3 "0x3:Reserved" 2 "0x2:Normal operation" 1 "0x1:Reserved" 0 "0x0:Abnormal operation" ;
+VAL_ 660 VCU3_SysFault 3 "0x3:Reserved" 2 "0x2:Red lamp ON" 1 "0x1:Yellow lamp ON" 0 "0x0:No Fault" ;
+VAL_ 404 VCU2_GearSts 15 "0x08-0xF:Reserved" 14 "0x08-0xF:Reserved" 13 "0x08-0xF:Reserved" 12 "0x08-0xF:Reserved" 11 "0x08-0xF:Reserved" 10 "0x08-0xF:Reserved" 9 "0x08-0xF:Reserved" 8 "0x08-0xF:Reserved" 7 "E+(Reserved)" 6 "E(Reserved)" 5 "S(Reserved)" 4 "D" 3 "N" 2 "R" 1 "P(Reserved)" 0 "Reserved" ;
+VAL_ 207 VCU1_MCUModReq 15 "Invalid" 14 "Reserved" 13 "Reserved" 12 "Reserved" 11 "Reserved" 10 "Reserved" 9 "Reserved" 8 "Reserved" 7 "Discharge" 6 "IsolationDetection" 5 "SpdCtl" 4 "TrqCtl" 3 "Standby" 2 "PreCharge" 1 "Reserved" 0 "Reserved" ;
+VAL_ 207 VCU1_HillHold 1 "Active" 0 "No Active" ;
+VAL_ 207 VCU1_CrashOutputSts 1 "Crashed" 0 "No crashed" ;
+VAL_ 207 VCU1_ChrgEnable 1 "Enable" 0 "Disenable" ;
+VAL_ 207 VCU1_BMSEmgyToShutDown 1 "Request" 0 "No Request" ;
+

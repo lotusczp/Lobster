@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list is="history">
+    <obj is="Ccp">
+        <obj is="Measurements">
+            <obj address="134253088" enable="true" event="3" name="focObj.Ib_pu" type="6"/>
+            <obj address="134253100" enable="false" event="3" name="focObj.parkCosTh" type="6"/>
+            <obj address="134253096" enable="true" event="3" name="focObj.parkSinTh" type="6"/>
+        </obj>
+        <obj is="Calibrations">
+            <obj address="134261990" name="test_int16" type="2"/>
+            <obj address="134261996" name="test_int32" type="4"/>
+            <obj address="134261988" name="test_int8" type="0"/>
+            <obj address="134261992" name="test_uint16" type="3"/>
+            <obj address="134262000" name="test_uint32" type="5"/>
+            <obj address="134261989" name="test_uint8" type="1"/>
+        </obj>
+        <str is="file" path="E:/repository/GL05/main_gl05/Debug/main_gl05.out"/>
+    </obj>
+</list>

@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list is="history">
+    <obj is="ScopeMenu">
+        <obj is="X axis">
+            <real name="MaxX" val="2000"/>
+        </obj>
+        <obj is="Y axis">
+            <real name="MaxY" val="100"/>
+            <real name="MinY" val="-100"/>
+        </obj>
+    </obj>
+    <obj is="WatchWindow">
+        <obj is="Cgd_AngleOffset">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_AngleType">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_CPU">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_CalibIaOffset">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_CalibIaScale">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_CalibIbOffset">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_CalibIbScale">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_CalibIcOffset">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_CalibIcScale">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_CalibVdcOffset">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_CalibVdcScale">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_DiagCode 15-0">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_DiagCode 31-16">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_DiagCode 47-32">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_DiagCode 63-48">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_DiagCode 71-64">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_DiagMaxLevel">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_DiagScrollCode">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_EnablePwm">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_EnableSensorCalib">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_EnableZeroCalib">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_FakeAngleRef">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_FreqRef">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_IMC Lambda">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_Ia">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_Ib">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_Ic">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_Id Ki">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_Id Kp">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_IdFdb">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_IdRef">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_IdcEst">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_Iq Ki">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_Iq Kp">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_IqFdb">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_IqRef">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_MosTemp1">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_MosTemp2">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_MotorSpeed">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_MotorTemp1">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_MotorTemp2">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_MtrCtrlType">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_PageNumber">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_PwmOutput">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_Raw12V">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_Raw15V">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_Raw5V">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_RawIa">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_RawIb">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_RawIc">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_RawMosTemp1">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_RawMosTemp2">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_RawMosTemp3">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_RawMotorTemp1">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_RawMotorTemp2">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_RawVdc">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_RawWaterTemp">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_SW BuildTime">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_SW Candidate">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_SW Version">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_TorqueCmd">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_TorqueEst">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_TorqueRef">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_VRef">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_Vd">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_Vdc">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_Vq">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_Vs">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_WaterTemp">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_WriteCalib I">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_bswFault 15-0">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_bswFault 31-16">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Cgd_bswFault 47-32">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+    </obj>
+    <obj is="SelectedNames">
+        <obj name="Cgd_AngleOffset"/>
+        <obj name="Cgd_AngleType"/>
+        <obj name="Cgd_CPU"/>
+        <obj name="Cgd_CalibIaOffset"/>
+        <obj name="Cgd_CalibIaScale"/>
+        <obj name="Cgd_CalibIbOffset"/>
+        <obj name="Cgd_CalibIbScale"/>
+        <obj name="Cgd_CalibIcOffset"/>
+        <obj name="Cgd_CalibIcScale"/>
+        <obj name="Cgd_CalibVdcOffset"/>
+        <obj name="Cgd_CalibVdcScale"/>
+        <obj name="Cgd_DiagCode 15-0"/>
+        <obj name="Cgd_DiagCode 31-16"/>
+        <obj name="Cgd_DiagCode 47-32"/>
+        <obj name="Cgd_DiagCode 63-48"/>
+        <obj name="Cgd_DiagCode 71-64"/>
+        <obj name="Cgd_DiagMaxLevel"/>
+        <obj name="Cgd_DiagScrollCode"/>
+        <obj name="Cgd_EnablePwm"/>
+        <obj name="Cgd_EnableSensorCalib"/>
+        <obj name="Cgd_EnableZeroCalib"/>
+        <obj name="Cgd_FakeAngleRef"/>
+        <obj name="Cgd_FreqRef"/>
+        <obj name="Cgd_IMC Lambda"/>
+        <obj name="Cgd_Ia"/>
+        <obj name="Cgd_Ib"/>
+        <obj name="Cgd_Ic"/>
+        <obj name="Cgd_Id Ki"/>
+        <obj name="Cgd_Id Kp"/>
+        <obj name="Cgd_IdFdb"/>
+        <obj name="Cgd_IdRef"/>
+        <obj name="Cgd_IdcEst"/>
+        <obj name="Cgd_Iq Ki"/>
+        <obj name="Cgd_Iq Kp"/>
+        <obj name="Cgd_IqFdb"/>
+        <obj name="Cgd_IqRef"/>
+        <obj name="Cgd_MosTemp1"/>
+        <obj name="Cgd_MosTemp2"/>
+        <obj name="Cgd_MotorSpeed"/>
+        <obj name="Cgd_MotorTemp1"/>
+        <obj name="Cgd_MotorTemp2"/>
+        <obj name="Cgd_MtrCtrlType"/>
+        <obj name="Cgd_PageNumber"/>
+        <obj name="Cgd_PwmOutput"/>
+        <obj name="Cgd_Raw12V"/>
+        <obj name="Cgd_Raw15V"/>
+        <obj name="Cgd_Raw5V"/>
+        <obj name="Cgd_RawIa"/>
+        <obj name="Cgd_RawIb"/>
+        <obj name="Cgd_RawIc"/>
+        <obj name="Cgd_RawMosTemp1"/>
+        <obj name="Cgd_RawMosTemp2"/>
+        <obj name="Cgd_RawMosTemp3"/>
+        <obj name="Cgd_RawMotorTemp1"/>
+        <obj name="Cgd_RawMotorTemp2"/>
+        <obj name="Cgd_RawVdc"/>
+        <obj name="Cgd_RawWaterTemp"/>
+        <obj name="Cgd_SW BuildTime"/>
+        <obj name="Cgd_SW Candidate"/>
+        <obj name="Cgd_SW Version"/>
+        <obj name="Cgd_TorqueCmd"/>
+        <obj name="Cgd_TorqueEst"/>
+        <obj name="Cgd_TorqueRef"/>
+        <obj name="Cgd_VRef"/>
+        <obj name="Cgd_Vd"/>
+        <obj name="Cgd_Vdc"/>
+        <obj name="Cgd_Vq"/>
+        <obj name="Cgd_Vs"/>
+        <obj name="Cgd_WaterTemp"/>
+        <obj name="Cgd_WriteCalib I"/>
+        <obj name="Cgd_bswFault 15-0"/>
+        <obj name="Cgd_bswFault 31-16"/>
+        <obj name="Cgd_bswFault 47-32"/>
+    </obj>
+    <obj is="ChannelMgr">
+        <obj is="Cgd">
+            <str name="Configuration Path" val="Cgd.xml"/>
+            <str name="Plugin Path" val="./plugin/CgdPlugin.dll"/>
+        </obj>
+    </obj>
+</list>

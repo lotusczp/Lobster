@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<obj is="DBC Manager Plugin Config">
+  <str name="DBC file path" val="go29.dbc"/>
+  <str name="Script file path" val="DbcScript.js"/>
+</obj>

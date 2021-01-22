@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Lobster Script</title>
+</head>
+<body style="font-size:12pt;font-family:helvetica">
+
+	<p><center><h1>Lobster Script Help</h1></center></p>
+	
+	<p><h1>Lobster Script IDE</h1></p>
+	
+	<p><img src="./documentation/images/scriptwidget.png" /></p>
+	
+	<p>The script ide window is divided into 2 parts. the left window is a script editor and the right one is the console. 
+	The editor has highlight for JS codes but it's really rough.</p>
+	<br/>
+	
+	<p><img src="./documentation/images/scriptfilebuttons.png" /></p>
+	<p>Those buttons are used to New/Save/Open script files(.js file).</p>
+	<br/>
+	
+  <p><img src="./documentation/images/scriptrefresh.png" /></p>
+	<p>This button is used to refresh the currently opened js file in case it's modified by other program.</p>
+	<br/>
+	
+	<p><img src="./documentation/images/scriptrunstop.png" /></p>
+	<p>These two buttons are used to stop/run the script evaluation.</p>
+	<br/>
+	
+	<p><img src="./documentation/images/scriptdebug.png" /></p>
+	<p>This button is used to debug the script.</p>
+	<p><b>Note: </b>This will open a seperate debug window. The operations of debug(step into, step over, .etc) are common so they are not described here.</p>
+	<br/>
+	
+  <p><img src="./documentation/images/scriptclean.png" /></p>
+	<p>This button is used to clear all the contents in console.</p>
+	
+	
+	
+	<p><h1>Lobster Script API</h1></p>
+	<br/>
+		
+	<p><tt>include(fileName)</tt></p>
+	<p>Calling this API will load the specified file into the context. Similiar to "include" in c/c++.</p>
+	<p><b>Note: </b>The file included should be in <b>script</b> folder.</p>
+	<br/>
+	
+	<p><tt>lbMain.startTrans()</tt></p>
+	<p>Calling this API will start all the channels. It's equivalent to clicking the "Start" button.</p>
+	<br/>
+	
+	<p><tt>lbMain.stopTrans()</tt></p>
+    <p>Calling this API will stop all the channels. It's equivalent to clicking the "Stop" button.</p>
+	<br/>
+	
+	<p><tt>lbPoint.subscribe(dataName)</tt></p>
+	<p>Calling this API will subscribe this data into the watch window. It's equivalent to select this point in the select data widget.</p>
+	<br/>
+	
+	<p><tt>lbPoint.unsubscribe(dataName)</tt></p>
+    <p>Calling this API will unsubscribe this data. It's equivalent to unselect this point in the select data widget.</p>
+	<br/>
+	
+	<p><tt>value lbPoint.getValue(dataName)</tt></p>
+	<p>Get the current value of identified by "dataName". The return value is a javascript object.</p>
+	<br/>
+	
+	<p><tt>lbPoint.setValue(dataName, dataValue)</tt></p>
+    <p>Set the point identified by "dataName" with the value "dataValue"</p>
+	<br/>
+	
+	<p><tt>lbPoint.setCurveEnable(dataName, isEnable)</tt></p>
+	<p>Set the point identified by "dataName" visible/invisible in the oscilloscope.</p>
+	<br/>
+	
+	<p><tt>lbPoint.setCurveColor(dataName, colorString)</tt></p>
+	<p>Set color of the curve identified by "dataName" in the oscilloscope. The colorString is defined by RGB value. For example, "#FF0000" refers to the red color.</p>
+	<br/>
+	
+	<p><tt>lbPoint.setCurveGain(dataName, gain)</tt></p>
+	<p>Set gain of the curve identified by "dataName" in the oscilloscope.</p>
+	<br/>
+	
+	<p><tt>lbPoint.setCurveOffset(dataName, offset)</tt></p>
+    <p>Set offset of the curve identified by "dataName" in the oscilloscope.</p>
+	<br/>
+	
+	<p><tt>lbPoint.pullValue(dataName)</tt></p>
+    <p>Pull the register value identified by "dataName" in the watchwindow.</p>
+	<br/>
+	
+	<p><tt>lbPoint.setLogEnable(dataName, isEnable)</tt></p>
+    <p>Set the point identified by "dataName" enable/disable in the Log system.</p>
+	<br/>
+	
+	<p><tt>lbSystem.wait(milliSeconds)</tt></p>
+	<p>The evaluation of script will stop for some milliSeconds identified by parameter.</p>
+	<p><b>Note: </b>This "wait" will not occupy cpu resource.</p>
+	<br/>
+	
+	<p><tt>lbSystem.consoleWrite(string)</tt></p>
+	<p>The console will show "string" plus a line break by Calling this API.</p>
+	<br/>
+	
+	<p><tt>lbSystem.beep(times)</tt></p>
+	<p>Lobster will beep for several time identified by the parameter.</p>
+	<br/>
+	
+	<p><tt>lbSystem.say(content)</tt></p>
+	<p>Lobster will call the local API to say the content.</p>
+	<br/>
+	
+	<p><tt>absTime lbSystem.absTime()</tt></p>
+	<p>Calling this function can return the absolute time right now.</p>
+	<br/>
+	
+	<p><tt>lbSystem.pause()</tt></p>
+	<p>Calling this function will pause the evaluation of current script.</p>
+	<br/>
+
+</body>
+</html>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list is="history">
+    <obj is="ScopeMenu">
+        <obj is="X axis">
+            <real name="MaxX" val="2000"/>
+        </obj>
+        <obj is="Y axis">
+            <real name="MaxY" val="100"/>
+            <real name="MinY" val="-100"/>
+        </obj>
+    </obj>
+    <obj is="WatchWindow">
+        <obj is="Tmctl_Idc">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Tmctl_InvEfficiency">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Tmctl_InvInputPower">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Tmctl_Irms">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Tmctl_MotorEfficiency">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Tmctl_MotorInputPower">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Tmctl_MotorOutputPower">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Tmctl_Speed">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Tmctl_SystemEfficiency">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Tmctl_Torque">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Tmctl_Urms">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Tmctl_Vdc">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+    </obj>
+    <obj is="SelectedNames">
+        <obj name="Tmctl_Idc"/>
+        <obj name="Tmctl_InvEfficiency"/>
+        <obj name="Tmctl_InvInputPower"/>
+        <obj name="Tmctl_Irms"/>
+        <obj name="Tmctl_MotorEfficiency"/>
+        <obj name="Tmctl_MotorInputPower"/>
+        <obj name="Tmctl_MotorOutputPower"/>
+        <obj name="Tmctl_Speed"/>
+        <obj name="Tmctl_SystemEfficiency"/>
+        <obj name="Tmctl_Torque"/>
+        <obj name="Tmctl_Urms"/>
+        <obj name="Tmctl_Vdc"/>
+    </obj>
+    <obj is="ChannelMgr">
+        <obj is="Tmctl">
+            <str name="Configuration Path" val="Tmctl.xml"/>
+            <str name="Plugin Path" val="./plugin/TmctlPlugin.dll"/>
+        </obj>
+    </obj>
+</list>

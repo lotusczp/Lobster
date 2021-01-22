@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<obj is="UsbAdc Plugin Config">
+  <int name="ScanInterval_ms" val="200"/>
+  <list is="Sample Points">
+    <!-- The return value is equal to voltage*Scale+Offset -->
+    <obj is="Point">
+      <str name="PointName" val="MotorSpeed"/>
+      <int name="Port" val="0"/>
+      <real name="Scale" val="1.0"/>
+      <real name="Offset" val="0"/>
+      <str name="Unit" val="RPM"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="Torque"/>
+      <int name="Port" val="1"/>
+      <real name="Scale" val="1.0"/>
+      <real name="Offset" val="0"/>
+      <str name="Unit" val="Nm"/>
+    </obj>
+  </list>
+</obj>

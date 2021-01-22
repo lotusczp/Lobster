@@ -1,0 +1,201 @@
+{
+    "PointList": [
+        {
+            "Address": "0x0101",
+            "Authority": "RO",
+            "IsPU": "TRUE",
+            "Name": "IA",
+            "Type": "Input"
+        },
+        {
+            "Address": "0x0102",
+            "Authority": "RO",
+            "IsPU": "TRUE",
+            "Name": "IB",
+            "Type": "Input"
+        },
+        {
+            "Address": "0x0103",
+            "Authority": "RO",
+            "IsPU": "TRUE",
+            "Name": "IC",
+            "Type": "Input"
+        },
+        {
+            "Address": "0x0104",
+            "Authority": "RO",
+            "IsPU": "TRUE",
+            "Name": "Vdc",
+            "Type": "Input"
+        },
+        {
+            "Address": "0x0105",
+            "Authority": "RO",
+            "IsPU": "TRUE",
+            "Name": "angle",
+            "Type": "Input"
+        },
+        {
+            "Address": "0x0106",
+            "Authority": "RO",
+            "IsPU": "TRUE",
+            "Name": "IdFdb",
+            "Type": "Input"
+        },
+        {
+            "Address": "0x0107",
+            "Authority": "RO",
+            "IsPU": "TRUE",
+            "Name": "IqFdb",
+            "Type": "Input"
+        },
+        {
+            "Address": "0x0108",
+            "Authority": "RO",
+            "IsPU": "TRUE",
+            "Name": "SpdFdb",
+            "Type": "Input"
+        },
+        {
+            "Address": "0x0109",
+            "Authority": "RO",
+            "IsPU": "TRUE",
+            "Name": "Vd",
+            "Type": "Input"
+        },
+        {
+            "Address": "0x010A",
+            "Authority": "RO",
+            "IsPU": "TRUE",
+            "Name": "Vq",
+            "Type": "Input"
+        },
+        {
+            "Address": "0x010B",
+            "Authority": "RO",
+            "IsPU": "TRUE",
+            "Name": "Vdq",
+            "Type": "Input"
+        },
+        {
+            "Address": "0x010C",
+            "Authority": "RO",
+            "IsPU": "TRUE",
+            "Name": "InputReserved1",
+            "Type": "Input"
+        },
+        {
+            "Address": "0x010D",
+            "Authority": "RO",
+            "IsPU": "TRUE",
+            "Name": "InputReserved2",
+            "Type": "Input"
+        },
+        {
+            "Address": "0x0201",
+            "Authority": "RW",
+            "IsPU": "FALSE",
+            "Name": "enablePwm",
+            "Type": "Register"
+        },
+        {
+            "Address": "0x0202",
+            "Authority": "RW",
+            "IsPU": "FALSE",
+            "Name": "enableRelay",
+            "Type": "Register"
+        },
+        {
+            "Address": "0x0203",
+            "Authority": "RW",
+            "IsPU": "TRUE",
+            "Name": "IdRef",
+            "Type": "Register"
+        },
+        {
+            "Address": "0x0204",
+            "Authority": "RW",
+            "IsPU": "TRUE",
+            "Name": "IdKp",
+            "Type": "Register"
+        },
+        {
+            "Address": "0x0205",
+            "Authority": "RW",
+            "IsPU": "TRUE",
+            "Name": "IdKi",
+            "Type": "Register"
+        },
+        {
+            "Address": "0x0206",
+            "Authority": "RW",
+            "IsPU": "TRUE",
+            "Name": "IqRef",
+            "Type": "Register"
+        },
+        {
+            "Address": "0x0207",
+            "Authority": "RW",
+            "IsPU": "TRUE",
+            "Name": "IqKp",
+            "Type": "Register"
+        },
+        {
+            "Address": "0x0208",
+            "Authority": "RW",
+            "IsPU": "TRUE",
+            "Name": "IqKi",
+            "Type": "Register"
+        },
+        {
+            "Address": "0x0209",
+            "Authority": "RW",
+            "IsPU": "TRUE",
+            "Name": "SpdRef",
+            "Type": "Register"
+        },
+        {
+            "Address": "0x020A",
+            "Authority": "RW",
+            "IsPU": "TRUE",
+            "Name": "SpdKp",
+            "Type": "Register"
+        },
+        {
+            "Address": "0x020B",
+            "Authority": "RW",
+            "IsPU": "TRUE",
+            "Name": "SpdKi",
+            "Type": "Register"
+        },
+        {
+            "Address": "0x020C",
+            "Authority": "RW",
+            "IsPU": "TRUE",
+            "Name": "Vref",
+            "Type": "Register"
+        },
+        {
+            "Address": "0x020D",
+            "Authority": "RW",
+            "IsPU": "TRUE",
+            "Name": "FreqRef",
+            "Type": "Register"
+        },
+        {
+            "Address": "0x020E",
+            "Authority": "RW",
+            "IsPU": "TRUE",
+            "Name": "RegReserved1",
+            "Type": "Register"
+        },
+        {
+            "Address": "0x020F",
+            "Authority": "RW",
+            "IsPU": "TRUE",
+            "Name": "RegReserved2",
+            "Type": "Register"
+        }
+    ],
+    "SlaveAddress": 1
+}

@@ -1,0 +1,636 @@
+<?xml version="1.0" ?>
+<obj is="CAN GLB Debug Plugin Config">
+  <list is="Sample Points">
+    <obj is="Point">
+      <str name="PointName" val="MotorSpeed"/>
+      <int name="Page" val="0"/>
+      <int name="Offset" val="0"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="30000"/>
+      <str name="Unit" val="RPM"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="Vd"/>
+      <int name="Page" val="0"/>
+      <int name="Offset" val="1"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="PU"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="Vq"/>
+      <int name="Page" val="0"/>
+      <int name="Offset" val="2"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="PU"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="Vs"/>
+      <int name="Page" val="0"/>
+      <int name="Offset" val="3"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="PU"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="Vdc"/>
+      <int name="Page" val="0"/>
+      <int name="Offset" val="4"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="500"/>
+      <str name="Unit" val="V"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="IdRef"/>
+      <int name="Page" val="0"/>
+      <int name="Offset" val="5"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="1000"/>
+      <str name="Unit" val="A"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="IqRef"/>
+      <int name="Page" val="0"/>
+      <int name="Offset" val="6"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="1000"/>
+      <str name="Unit" val="A"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="IdFdb"/>
+      <int name="Page" val="0"/>
+      <int name="Offset" val="7"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="1000"/>
+      <str name="Unit" val="A"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="IqFdb"/>
+      <int name="Page" val="0"/>
+      <int name="Offset" val="8"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="1000"/>
+      <str name="Unit" val="A"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="TorqueCmd"/>
+      <int name="Page" val="0"/>
+      <int name="Offset" val="9"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="400"/>
+      <str name="Unit" val="Nm"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="TorqueEst"/>
+      <int name="Page" val="0"/>
+      <int name="Offset" val="10"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="400"/>
+      <str name="Unit" val="Nm"/>
+    </obj>
+	<obj is="Point">
+      <str name="PointName" val="MosTemp1"/>
+      <int name="Page" val="0"/>
+      <int name="Offset" val="11"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="300"/>
+      <str name="Unit" val="deg C"/>
+    </obj>
+	<obj is="Point">
+      <str name="PointName" val="MosTemp2"/>
+      <int name="Page" val="0"/>
+      <int name="Offset" val="12"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="300"/>
+      <str name="Unit" val="deg C"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="MotorTemp1"/>
+      <int name="Page" val="0"/>
+      <int name="Offset" val="13"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="300"/>
+      <str name="Unit" val="deg C"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="MotorTemp2"/>
+      <int name="Page" val="0"/>
+      <int name="Offset" val="14"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="300"/>
+      <str name="Unit" val="deg C"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="WaterTemp"/>
+      <int name="Page" val="0"/>
+      <int name="Offset" val="15"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="300"/>
+      <str name="Unit" val="deg C"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="PwmOutput"/>
+      <int name="Page" val="0"/>
+      <int name="Offset" val="16"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="NULL"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="Ia"/>
+      <int name="Page" val="0"/>
+      <int name="Offset" val="17"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="1000"/>
+      <str name="Unit" val="A"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="Ib"/>
+      <int name="Page" val="0"/>
+      <int name="Offset" val="18"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="1000"/>
+      <str name="Unit" val="A"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="Ic"/>
+      <int name="Page" val="0"/>
+      <int name="Offset" val="19"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="1000"/>
+      <str name="Unit" val="A"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="RawMosTemp1"/>
+      <int name="Page" val="1"/>
+      <int name="Offset" val="0"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="bits"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="RawMosTemp2"/>
+      <int name="Page" val="1"/>
+      <int name="Offset" val="1"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="bits"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="RawMosTemp3"/>
+      <int name="Page" val="1"/>
+      <int name="Offset" val="2"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="bits"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="RawMotorTemp1"/>
+      <int name="Page" val="1"/>
+      <int name="Offset" val="3"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="bits"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="RawMotorTemp2"/>
+      <int name="Page" val="1"/>
+      <int name="Offset" val="4"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="bits"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="Raw12V"/>
+      <int name="Page" val="1"/>
+      <int name="Offset" val="5"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="bits"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="Raw15V"/>
+      <int name="Page" val="1"/>
+      <int name="Offset" val="6"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="bits"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="Raw5V"/>
+      <int name="Page" val="1"/>
+      <int name="Offset" val="7"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="bits"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="RawIa"/>
+      <int name="Page" val="1"/>
+      <int name="Offset" val="8"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="bits"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="RawIb"/>
+      <int name="Page" val="1"/>
+      <int name="Offset" val="9"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="bits"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="RawIc"/>
+      <int name="Page" val="1"/>
+      <int name="Offset" val="10"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="bits"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="RawVdc"/>
+      <int name="Page" val="1"/>
+      <int name="Offset" val="11"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="bits"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="RawWaterTemp"/>
+      <int name="Page" val="1"/>
+      <int name="Offset" val="12"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="bits"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="bswFault 15-0"/>
+      <int name="Page" val="1"/>
+      <int name="Offset" val="13"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="NULL"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="bswFault 31-16"/>
+      <int name="Page" val="1"/>
+      <int name="Offset" val="14"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="NULL"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="bswFault 47-32"/>
+      <int name="Page" val="1"/>
+      <int name="Offset" val="15"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="NULL"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="SW Candidate"/>
+      <int name="Page" val="1"/>
+      <int name="Offset" val="16"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="NULL"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="SW BuildTime"/>
+      <int name="Page" val="1"/>
+      <int name="Offset" val="17"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="NULL"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="SW Version"/>
+      <int name="Page" val="1"/>
+      <int name="Offset" val="18"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="NULL"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="CPU"/>
+      <int name="Page" val="2"/>
+      <int name="Offset" val="0"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="%"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="IdcEst"/>
+      <int name="Page" val="2"/>
+      <int name="Offset" val="4"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="1000"/>
+      <str name="Unit" val="A"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="DiagScrollCode"/>
+      <int name="Page" val="2"/>
+      <int name="Offset" val="13"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="NULL"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="DiagMaxLevel"/>
+      <int name="Page" val="2"/>
+      <int name="Offset" val="14"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="NULL"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="DiagCode 15-0"/>
+      <int name="Page" val="2"/>
+      <int name="Offset" val="15"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="NULL"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="DiagCode 31-16"/>
+      <int name="Page" val="2"/>
+      <int name="Offset" val="16"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="NULL"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="DiagCode 47-32"/>
+      <int name="Page" val="2"/>
+      <int name="Offset" val="17"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="NULL"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="DiagCode 63-48"/>
+      <int name="Page" val="2"/>
+      <int name="Offset" val="18"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="NULL"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="DiagCode 71-64"/>
+      <int name="Page" val="2"/>
+      <int name="Offset" val="19"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="NULL"/>
+    </obj>
+  </list>
+  <list is="Register Points">
+    <!-- The value description must begin from 0, and seperated by ";" -->
+    <!-- Either of unit and ValueDescription can excist  -->
+	<obj is="Point">
+      <str name="PointName" val="PageNumber"/>
+      <int name="Address" val="9192"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="NULL"/>
+      <real name="Min" val="0"/>
+      <real name="Max" val="2"/>
+    </obj>
+	<obj is="Point">
+      <str name="PointName" val="EnablePwm"/>
+      <int name="Address" val="8193"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="ValueDescription" val="Disable;Enable"/>
+      <real name="Min" val="0"/>
+      <real name="Max" val="1"/>
+    </obj>
+	<obj is="Point">
+      <str name="PointName" val="MtrCtrlType"/>
+      <int name="Address" val="8194"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="ValueDescription" val="Voltage;Current;Torque;Speed;Idle"/>
+      <real name="Min" val="0"/>
+      <real name="Max" val="4"/>
+    </obj>
+	<obj is="Point">
+      <str name="PointName" val="AngleType"/>
+      <int name="Address" val="8195"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="ValueDescription" val="True;FakeSpeed;FakeAngle;Est"/>
+      <real name="Min" val="0"/>
+      <real name="Max" val="3"/>
+    </obj>
+	<obj is="Point">
+      <str name="PointName" val="IdRef"/>
+      <int name="Address" val="8199"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="1000"/>
+      <str name="Unit" val="A"/>
+      <real name="Min" val="-1000"/>
+      <real name="Max" val="1000"/>
+    </obj>
+	<obj is="Point">
+      <str name="PointName" val="IqRef"/>
+      <int name="Address" val="8200"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="1000"/>
+      <str name="Unit" val="A"/>
+      <real name="Min" val="-1000"/>
+      <real name="Max" val="1000"/>
+    </obj>
+	<obj is="Point">
+      <str name="PointName" val="AngleOffset"/>
+      <int name="Address" val="8207"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="PU"/>
+      <real name="Min" val="0"/>
+      <real name="Max" val="1"/>
+    </obj>
+	<obj is="Point">
+      <str name="PointName" val="FreqRef"/>
+      <int name="Address" val="8208"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="PU"/>
+      <real name="Min" val="0"/>
+      <real name="Max" val="1"/>
+    </obj>
+	<obj is="Point">
+      <str name="PointName" val="FakeAngleRef"/>
+      <int name="Address" val="8205"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="PU"/>
+      <real name="Min" val="0"/>
+      <real name="Max" val="1"/>
+    </obj>
+	<obj is="Point">
+      <str name="PointName" val="TorqueRef"/>
+      <int name="Address" val="8203"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="400"/>
+      <str name="Unit" val="Nm"/>
+      <real name="Min" val="-400"/>
+      <real name="Max" val="400"/>
+    </obj>
+	<obj is="Point">
+      <str name="PointName" val="VRef"/>
+      <int name="Address" val="8201"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="PU"/>
+      <real name="Min" val="0"/>
+      <real name="Max" val="1"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="CalibVdcOffset"/>
+      <int name="Address" val="8211"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="bits"/>
+      <real name="Min" val="-4096"/>
+      <real name="Max" val="4096"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="CalibVdcScale"/>
+      <int name="Address" val="8212"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="PU"/>
+      <real name="Min" val="0"/>
+      <real name="Max" val="1"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="CalibIaOffset"/>
+      <int name="Address" val="8213"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="bits"/>
+      <real name="Min" val="-4096"/>
+      <real name="Max" val="4096"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="CalibIbOffset"/>
+      <int name="Address" val="8214"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="bits"/>
+      <real name="Min" val="-4096"/>
+      <real name="Max" val="4096"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="CalibIcOffset"/>
+      <int name="Address" val="8215"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="bits"/>
+      <real name="Min" val="-4096"/>
+      <real name="Max" val="4096"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="CalibIaScale"/>
+      <int name="Address" val="8216"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="PU"/>
+      <real name="Min" val="0"/>
+      <real name="Max" val="1"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="CalibIbScale"/>
+      <int name="Address" val="8217"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="PU"/>
+      <real name="Min" val="0"/>
+      <real name="Max" val="1"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="CalibIcScale"/>
+      <int name="Address" val="8218"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="1"/>
+      <str name="Unit" val="PU"/>
+      <real name="Min" val="0"/>
+      <real name="Max" val="1"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="EnableSensorCalib"/>
+      <int name="Address" val="8219"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+	  <str name="ValueDescription" val="Disable;Enable"/>
+      <real name="Min" val="0"/>
+      <real name="Max" val="1"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="WriteCalib I"/>
+      <int name="Address" val="8220"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+	  <str name="ValueDescription" val="Reserved;Write"/>
+      <real name="Min" val="0"/>
+      <real name="Max" val="1"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="Id Kp"/>
+      <int name="Address" val="8221"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="32"/>
+	  <str name="Unit" val="NULL"/>
+      <real name="Min" val="0"/>
+      <real name="Max" val="32"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="Id Ki"/>
+      <int name="Address" val="8222"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="1"/>
+	  <str name="Unit" val="NULL"/>
+      <real name="Min" val="0"/>
+      <real name="Max" val="1"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="Iq Kp"/>
+      <int name="Address" val="8224"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="32"/>
+	  <str name="Unit" val="NULL"/>
+      <real name="Min" val="0"/>
+      <real name="Max" val="32"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="Iq Ki"/>
+      <int name="Address" val="8225"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="1"/>
+	  <str name="Unit" val="NULL"/>
+      <real name="Min" val="0"/>
+      <real name="Max" val="1"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="EnableZeroCalib"/>
+      <int name="Address" val="8226"/>
+      <str name="IsPU" val="No"/>
+      <real name="BaseValue" val="1"/>
+	  <str name="ValueDescription" val="Disable;Enable"/>
+      <real name="Min" val="0"/>
+      <real name="Max" val="1"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="IMC Lambda"/>
+      <int name="Address" val="8227"/>
+      <str name="IsPU" val="Yes"/>
+      <real name="BaseValue" val="32"/>
+	  <str name="Unit" val="NULL"/>
+      <real name="Min" val="0"/>
+      <real name="Max" val="32"/>
+    </obj>
+  </list>
+</obj>

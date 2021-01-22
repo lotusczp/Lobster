@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list is="history">
+    <obj is="ScopeMenu">
+        <obj is="X axis">
+            <real name="MaxX" val="2000"/>
+        </obj>
+        <obj is="Y axis">
+            <real name="MaxY" val="100"/>
+            <real name="MinY" val="-100"/>
+        </obj>
+    </obj>
+    <obj is="WatchWindow">
+        <obj is="UsbAdc_MotorSpeed">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="UsbAdc_Torque">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+    </obj>
+    <obj is="SelectedNames">
+        <obj name="UsbAdc_MotorSpeed"/>
+        <obj name="UsbAdc_Torque"/>
+    </obj>
+    <obj is="ChannelMgr">
+        <obj is="UsbAdc">
+            <str name="Configuration Path" val="UsbAdc.xml"/>
+            <str name="Plugin Path" val="./plugin/UsbAdcPlugin.dll"/>
+        </obj>
+    </obj>
+</list>

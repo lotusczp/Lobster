@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Oscilloscope</title>
+</head>
+<body style="font-size:12pt;font-family:helvetica">
+
+	<p><center><h1>Oscilloscope help</h1></center></p>
+	
+	<p>Oscilloscope shows the curves of all points selected to show in scope.</p>
+	<p>The curve line will be dot line if the current value of this point is invalid.</p>
+	<p>The oscilloscope will continuously draw current value until the value is changed.</p>
+	<p><b>Todo: </b> The oscilloscope are now using openGL to render but the algorithm is not optimized. So if the time range is too big, 
+	the cpu usage will be high. We need more effects to improve the drawing algorithm.</p>
+	<br/>
+	
+	<p>To change the value of Max Y and Min Y and click "set value" can change Y axis of oscilloscope. </p>
+	<br/>
+  <p>To change the time range can change X axis of oscilloscope. </p>
+  <p><b>Note: </b>Time range can only be changed by mouse wheel or UP/DOWN key. </p>
+  <br/>
+  
+  <p>Click on the oscilloscope screen, drag and drop, to do this will zoom in the screen to see more details.</p>
+  <p><center><img src="./documentation/images/scopedragdrop.png" /></center></p>
+  <br/>
+  
+  <p>Use <img src="./documentation/images/scopezoominout.png" /> to backward/forward the zoom in/out stack.</p>
+	
+</body>
+</html>

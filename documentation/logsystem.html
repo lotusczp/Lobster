@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Log system</title>
+</head>
+<body style="font-size:12pt;font-family:helvetica">
+
+	<p><center><h1>Log system help</h1></center></p>
+	
+	<p>Log system will save the data into a .csv file for further analysis.</p>
+	
+	<p>All the data logged are shown in the log widget. Every a hundred rows around, 
+	The program will clear the table and auto-save it into log_temp.csv under temp folder.
+	If the program crash, you can recover most of the data from log_temp.csv, 
+	but the last dozens of rows without having been auto-saved will be gone.</p>
+	<p><b>Note: </b>when the program restart, log_temp.csv will be deleted. 
+	So if you are trying to recover data from this file, <b>DO NOT</b> restart the program!</p>
+	<br/>
+	
+	<p>Clicking "Save as" button will save the data temporarily stored in log_temp.csv into the file you specify.</p>
+	<br/>
+	
+	<p>Clicking "Clear and Restart" button will clear the data temporarily stored in log_temp.csv and start a brand new log.</p>
+	<br/>
+	
+</body>
+</html>

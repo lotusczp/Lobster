@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list is="history">
+    <obj is="ScopeMenu">
+        <obj is="X axis">
+            <real name="MaxX" val="20"/>
+        </obj>
+        <obj is="Y axis">
+            <real name="MaxY" val="100"/>
+            <real name="MinY" val="-100"/>
+        </obj>
+    </obj>
+    <obj is="WatchWindow">
+        <obj is="Wave_Sawtooth wave">
+            <obj name="scope enable" val="true"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Wave_Sine wave">
+            <obj name="scope enable" val="true"/>
+            <obj name="curve color" val="#55ff00"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+    </obj>
+    <obj is="SelectedNames">
+        <obj name="Wave_Sawtooth wave"/>
+        <obj name="Wave_Sine wave"/>
+    </obj>
+    <obj is="ChannelMgr">
+        <obj is="Wave">
+            <str name="Configuration Path" val="WaveGenerator.xml"/>
+            <str name="Plugin Path" val="./plugin/WaveGeneratorPlugin.dll"/>
+        </obj>
+    </obj>
+</list>

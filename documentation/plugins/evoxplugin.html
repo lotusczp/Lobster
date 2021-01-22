@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Evox plugin</title>
+</head>
+<body style="font-size:12pt;font-family:helvetica">
+
+	<p><center><h1>Evox plugin help</h1></center></p>
+	
+	<p>Evox plugin is used to handle UC800 evox/var protocol.</p>
+	<p>The plugin send the batch request every 1 second. And send a single write request every 100 ms if has any. If the write command 
+	is coming too fast from Lobster main program, at most 100 write commands will be buffered. The rest will be dropped. </p>
+	
+	<p><h1>Settings widget</h1></p>
+	<p>Evox plugin need to configure the server ip and port(can not be empty) in Settings widget.</p>
+  <br/>
+	
+	<p><h1>Tool widget</h1></p>
+	<p>The tool widget shows the network errors.</p>
+	<br/>
+  
+	
+</body>
+</html>

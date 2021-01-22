@@ -1,0 +1,335 @@
+<?xml version="1.0" ?>
+<obj is="Evox Var Config">
+  <list is="Var Points">
+    <obj is="Point">
+      <str name="PointName" val="0x0201DBFF"/>
+      <str name="ValueType" val="int"/>
+      <str name="Authority" val="ReadOnly"/>
+      <str name="Nickname" val="$UnitSystemOverride"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x0201DBFE"/>
+      <str name="ValueType" val="bool"/>
+      <str name="Nickname" val="$UnitOccSwitch"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x0201DBFD"/>
+      <str name="ValueType" val="bool"/>
+      <str name="Nickname" val="$UnitSTInput"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x0201DBFC"/>
+      <str name="ValueType" val="bool"/>
+      <str name="Nickname" val="$UnitRRInput"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x03010018"/>
+      <str name="ValueType" val="int"/>
+      <str name="Authority" val="ReadOnly"/>
+      <str name="Nickname" val="$SFanSlewRatedCmd"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x03010017"/>
+      <str name="ValueType" val="int"/>
+      <str name="Nickname" val="$SFanActingStatus"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x030100FF"/>
+      <str name="ValueType" val="int"/>
+      <str name="Authority" val="ReadOnly"/>
+      <str name="Nickname" val="$SAState"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x030100FE"/>
+      <str name="ValueType" val="int"/>
+      <str name="Authority" val="ReadOnly"/>
+      <str name="Nickname" val="$SFanState"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x030100FD"/>
+      <str name="ValueType" val="int"/>
+      <str name="Authority" val="ReadOnly"/>
+      <str name="Nickname" val="$SAPressState"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x030100FC"/>
+      <str name="ValueType" val="int"/>
+      <str name="Authority" val="ReadOnly"/>
+      <str name="Nickname" val="$SAPressHLDiagState"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x0301FF00"/>
+      <str name="Authority" val="ReadOnly"/>
+      <str name="Nickname" val="$SoftloadingTarget"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x0301009A"/>
+      <str name="ValueType" val="int"/>
+      <str name="Authority" val="ReadOnly"/>
+      <str name="Nickname" val="$SFMode"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x0301009B"/>
+      <str name="ValueType" val="bool"/>
+      <str name="Nickname" val="$SFSTSetting"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x0301009C"/>
+      <str name="ValueType" val="bool"/>
+      <str name="Nickname" val="$SFSTManualCmd"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x0301009E"/>
+      <str name="ValueType" val="bool"/>
+      <str name="Authority" val="ReadOnly"/>
+      <str name="Nickname" val="$SFRapidRestartRequest"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x0301009F"/>
+      <str name="ValueType" val="bool"/>
+      <str name="Authority" val="ReadOnly"/>
+      <str name="Nickname" val="$SFActiveSAOnOffRequestForAuto"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x030100A8"/>
+      <str name="Nickname" val="$SFSpeedSTCmd"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x030100A9"/>
+      <str name="ValueType" val="bool"/>
+      <str name="Nickname" val="$SFSpeedSTSetting"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x030100AA"/>
+      <str name="ValueType" val="int"/>
+      <str name="Authority" val="ReadOnly"/>
+      <str name="Nickname" val="$SFSpeedRapidStartReqeust"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x030100AB"/>
+      <str name="ValueType" val="int"/>
+      <str name="Nickname" val="$SFSpeedMode"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x030100AD"/>
+      <str name="ValueType" val="int"/>
+      <str name="Nickname" val="$MuxSFSpeedRequest"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x0501000B"/>
+      <str name="ValueType" val="int"/>
+      <str name="Nickname" val="$OADActingStatus"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x07010001"/>
+      <str name="ValueType" val="bool"/>
+      <str name="Authority" val="ReadOnly"/>
+      <str name="Nickname" val="$EFanRelayCmd"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x07010002"/>
+      <str name="Authority" val="ReadOnly"/>
+      <str name="Nickname" val="$EADVoltageCmd"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x07010003"/>
+      <str name="ValueType" val="bool"/>
+      <str name="Nickname" val="$EFanProvingInput"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x07010004"/>
+      <str name="ValueType" val="bool"/>
+      <str name="Nickname" val="$EAD_ActingIsReverse"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x07010005"/>
+      <str name="ValueType" val="int"/>
+      <str name="Nickname" val="$EAD_StrokeTime"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x07010006"/>
+      <str name="Nickname" val="$EAD_MinVoltage"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x07010007"/>
+      <str name="Nickname" val="$EAD_MaxVoltage"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x07010008"/>
+      <str name="ValueType" val="int"/>
+      <str name="Authority" val="ReadOnly"/>
+      <str name="Nickname" val="$EADActingStatus"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x07010009"/>
+      <str name="Nickname" val="$ActiveEADPosRequest"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x0701000A"/>
+      <str name="Nickname" val="$EADPosStatus"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x0701000B"/>
+      <str name="ValueType" val="bool"/>
+      <str name="Nickname" val="$ActiveEFanOnOffRequest"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x0701000D"/>
+      <str name="Nickname" val="$ActiveSpacePressInput"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x07010014"/>
+      <str name="Nickname" val="$SP_PID_KP"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x070100FF"/>
+      <str name="ValueType" val="int"/>
+      <str name="Authority" val="ReadOnly"/>
+      <str name="Nickname" val="$EA_DebugState"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x070100FE"/>
+      <str name="ValueType" val="int"/>
+      <str name="Authority" val="ReadOnly"/>
+      <str name="Nickname" val="$EATrackOA_DebugState"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x070100FD"/>
+      <str name="ValueType" val="int"/>
+      <str name="Authority" val="ReadOnly"/>
+      <str name="Nickname" val="$SP_DebugState"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x060100FF"/>
+      <str name="ValueType" val="int"/>
+      <str name="Authority" val="ReadOnly"/>
+      <str name="Nickname" val="$RA_DebugState"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x1F010001"/>
+      <str name="ValueType" val="bool"/>
+      <str name="Authority" val="ReadOnly"/>
+      <str name="Nickname" val="$VOMActiveMode"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x1F010002"/>
+      <str name="ValueType" val="int"/>
+      <str name="Authority" val="ReadOnly"/>
+      <str name="Nickname" val="$VOMErrorCode"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x1F010031"/>
+      <str name="ValueType" val="bool"/>
+      <str name="Nickname" val="$VOMSettingLockA"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x1F010032"/>
+      <str name="ValueType" val="bool"/>
+      <str name="Nickname" val="$VOMSettingLockB"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x1F010033"/>
+      <str name="ValueType" val="bool"/>
+      <str name="Nickname" val="$VOMSettingLockC"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x1F010034"/>
+      <str name="ValueType" val="bool"/>
+      <str name="Nickname" val="$VOMSettingLockD"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x1F010035"/>
+      <str name="ValueType" val="bool"/>
+      <str name="Nickname" val="$VOMSettingLockE"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x1F010040"/>
+      <str name="ValueType" val="bool"/>
+      <str name="Authority" val="ReadOnly"/>
+      <str name="Nickname" val="$VOMActiveSFan"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x1F010041"/>
+      <str name="ValueType" val="bool"/>
+      <str name="Nickname" val="$VOMSFanA"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x1F010042"/>
+      <str name="ValueType" val="bool"/>
+      <str name="Nickname" val="$VOMSFanB"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x1F010043"/>
+      <str name="ValueType" val="bool"/>
+      <str name="Nickname" val="$VOMSFanC"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x1F010044"/>
+      <str name="ValueType" val="bool"/>
+      <str name="Nickname" val="$VOMSFanD"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x1F010045"/>
+      <str name="ValueType" val="bool"/>
+      <str name="Nickname" val="$VOMSFanE"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x1F010050"/>
+      <str name="ValueType" val="int"/>
+      <str name="Authority" val="ReadOnly"/>
+      <str name="Nickname" val="$VOMActiveSFanSpeed"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x1F010051"/>
+      <str name="ValueType" val="int"/>
+      <str name="Nickname" val="$VOMSFanSpeedA"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x1F010052"/>
+      <str name="ValueType" val="int"/>
+      <str name="Nickname" val="$VOMSFanSpeedB"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x1F010053"/>
+      <str name="ValueType" val="int"/>
+      <str name="Nickname" val="$VOMSFanSpeedC"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x1F010054"/>
+      <str name="ValueType" val="int"/>
+      <str name="Nickname" val="$VOMSFanSpeedD"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x1F010055"/>
+      <str name="ValueType" val="int"/>
+      <str name="Nickname" val="$VOMSFanSpeedE"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x1F010060"/>
+      <str name="ValueType" val="int"/>
+      <str name="Authority" val="ReadOnly"/>
+      <str name="Nickname" val="$VOMActiveEFan"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x1F010070"/>
+      <str name="ValueType" val="int"/>
+      <str name="Authority" val="ReadOnly"/>
+      <str name="Nickname" val="$VOMActiveRFan"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x1F010065"/>
+      <str name="ValueType" val="int"/>
+      <str name="Nickname" val="$VOMEFanE"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x1F0100A5"/>
+      <str name="ValueType" val="int"/>
+      <str name="Nickname" val="$VOMHeatE"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x1F0100B5"/>
+      <str name="ValueType" val="int"/>
+      <str name="Nickname" val="$VOMOccRelayE"/>
+    </obj>
+  </list>
+</obj>

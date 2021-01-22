@@ -1,0 +1,453 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<xsd:schema targetNamespace="http://www.ni.com/Schemas/USI/1_0" 
+            elementFormDefault="qualified"
+            xmlns:usi="http://www.ni.com/Schemas/USI/1_0"
+            xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <xsd:element name="tdm">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="documentation" type="usi:t_documentation" />
+        <xsd:element name="model" type="usi:t_model" />
+        <xsd:element name="include" type="usi:t_includes" />
+        <xsd:element name="data" type="usi:t_data" />
+      </xsd:sequence>
+      <xsd:attribute name="version" type="xsd:string" />
+    </xsd:complexType>
+  </xsd:element>
+
+    <xsd:complexType name="t_documentation">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" name="contact" type="xsd:string" />
+      <xsd:element minOccurs="0" name="exporter" type="xsd:string" />
+      <xsd:element minOccurs="0" name="exporterVersion" type="xsd:string" />
+      <xsd:element minOccurs="0" name="longDescription" type="xsd:string" />
+      <xsd:element minOccurs="0" name="shortDescription" type="xsd:string" />
+      <xsd:element minOccurs="0" name="notice" type="xsd:string" />
+      <xsd:element minOccurs="0" name="owner" type="xsd:string" />
+    </xsd:sequence>
+    <xsd:attribute name="id" type="xsd:ID" />
+  </xsd:complexType>
+
+  <xsd:complexType name="t_model">
+    <xsd:sequence>  
+      <xsd:element name="include"     type="usi:t_include"     minOccurs="0" maxOccurs="unbounded"/>
+      <xsd:element name="enumeration" type="usi:t_enumeration" minOccurs="0" maxOccurs="unbounded"/>
+      <xsd:element name="entity"      type="usi:t_entity"      minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+    <xsd:attribute form="unqualified" name="modelName" type="xsd:string" />
+    <xsd:attribute form="unqualified" name="modelname" use="optional" type="xsd:string" /> <!--compatibility DIAdem 9.0-->
+    <xsd:attribute form="unqualified" name="modelversion" use="optional" type="xsd:string" /> <!--compatibility DIAdem 9.0-->
+    <xsd:attribute form="unqualified" name="modelVersion" type="xsd:string" />
+  </xsd:complexType>
+  
+  <xsd:complexType name="t_include" >
+    <xsd:attribute name="nsUri"    type="xsd:anyURI"  use="required"/>
+    <xsd:attribute name="nsPrefix" type="xsd:NMTOKEN" use="optional"/>      
+  </xsd:complexType>
+  
+  <xsd:complexType name="t_entity">
+    <xsd:sequence>
+      <xsd:element name="attribute"           type="usi:t_attribute"    minOccurs="0" maxOccurs="unbounded"/>
+      <xsd:element name="reference"           type="usi:t_reference"    minOccurs="0" maxOccurs="unbounded"/>
+    </xsd:sequence>
+    <xsd:attribute name="name"                type="xsd:NMTOKEN"    use="required"/>
+    <xsd:attribute name="superTypes"          type="xsd:NMTOKEN"/>   
+    <xsd:attribute name="derivation"          type="usi:e_ModelDerivation" use="optional" default="redeclaration"/>
+  </xsd:complexType>
+
+  <xsd:complexType name="t_enumeration" >
+    <xsd:sequence>
+      <xsd:element name="item"         type="usi:t_item"    minOccurs="1" maxOccurs="unbounded"/>
+    </xsd:sequence>
+    <xsd:attribute name="name"         type="xsd:NMTOKEN"    use="required"/>
+  </xsd:complexType>
+
+  <xsd:complexType name="t_item" >
+    <xsd:attribute name="name"         type="xsd:NMTOKEN"    use="required"/>
+    <xsd:attribute name="value"        type="xsd:long"/>   
+  </xsd:complexType>
+  
+  <xsd:attributeGroup name="t_attributeAttributes">
+    <xsd:attribute name="name"         type="xsd:NMTOKEN"    use="required"/>
+    <xsd:attribute name="base"         type="xsd:NMTOKEN"/>
+    <xsd:attribute name="minOccurs"    type="xsd:nonNegativeInteger"/>
+    <xsd:attribute name="maxOccurs"    type="usi:t_maxOccurs"/>
+    <xsd:attribute name="reference"    type="xsd:NMTOKEN"/>
+    <xsd:attribute name="external"     type="xsd:boolean"    use="optional" default="false"/>
+  </xsd:attributeGroup>
+
+  <xsd:complexType name="t_attribute" >
+    <xsd:attributeGroup ref="usi:t_attributeAttributes"/>
+    <xsd:attribute name="type"         type="usi:e_blockType"/>
+  </xsd:complexType>
+
+  <xsd:complexType name="t_reference" >
+    <xsd:attributeGroup ref="usi:t_attributeAttributes"/>
+    <xsd:attribute name="inverse"    type="xsd:NMTOKEN"/>
+    <xsd:attribute name="refType"    type="usi:e_refType"    use="optional" default="aggregation"/>
+  </xsd:complexType>
+
+
+  <xsd:complexType name="t_includes">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" maxOccurs="unbounded" form="unqualified" name="file">
+        <xsd:complexType>
+          <xsd:choice minOccurs="0" maxOccurs="unbounded">
+            <xsd:element minOccurs="0" maxOccurs="unbounded" form="unqualified" name="block">
+              <xsd:complexType>
+              	<xsd:attribute form="unqualified" name="blockSize" type="xsd:nonNegativeInteger" /> <!-- compatibility to DIAdem 9.0-->
+                <xsd:attribute form="unqualified" name="byteOffset" type="xsd:nonNegativeInteger" />
+                <xsd:attribute form="unqualified" name="id" type="xsd:ID" />
+                <xsd:attribute form="unqualified" name="length" type="xsd:nonNegativeInteger" />
+                <xsd:attribute form="unqualified" name="valueType" type="usi:e_blockType" />
+              </xsd:complexType>
+            </xsd:element>
+            <xsd:element minOccurs="0" maxOccurs="unbounded" form="unqualified" name="block_bm">
+              <xsd:complexType>
+                <xsd:attribute form="unqualified" name="blockOffset" type="xsd:nonNegativeInteger" />
+                <xsd:attribute form="unqualified" name="blockSize" type="xsd:nonNegativeInteger" />
+                <xsd:attribute form="unqualified" name="byteOffset" type="xsd:nonNegativeInteger" />
+                <xsd:attribute form="unqualified" name="id" type="xsd:ID" />
+                <xsd:attribute form="unqualified" name="length" type="xsd:nonNegativeInteger" />
+                <xsd:attribute form="unqualified" name="valueType" type="usi:e_blockType" />
+              </xsd:complexType>
+            </xsd:element>
+            <xsd:element minOccurs="0" maxOccurs="unbounded" form="unqualified" name="block_mr">
+              <xsd:complexType>
+                <xsd:attribute form="unqualified" name="blockOffset" type="xsd:nonNegativeInteger" />
+                <xsd:attribute form="unqualified" name="blockSize" type="xsd:nonNegativeInteger" />
+                <xsd:attribute form="unqualified" name="byteOffset" type="xsd:nonNegativeInteger" />
+                <xsd:attribute form="unqualified" name="id" type="xsd:ID" />
+                <xsd:attribute form="unqualified" name="length" use="optional" type="xsd:nonNegativeInteger" />
+                <xsd:attribute form="unqualified" name="valuesPerScan" type="xsd:nonNegativeInteger" />
+                <xsd:attribute form="unqualified" name="valueType" type="usi:e_blockType" />
+              </xsd:complexType>
+            </xsd:element>
+          </xsd:choice>
+          <xsd:attribute form="unqualified" name="byteOrder" type="usi:e_byteOrder" />
+          <xsd:attribute form="unqualified" name="url" type="xsd:string" />
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+  
+  <xsd:simpleType name = "e_ModelDerivation">
+    <xsd:restriction base="xsd:NMTOKEN">
+      <xsd:enumeration value="extension"/>
+      <xsd:enumeration value="redeclaration"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name = "e_usage">
+    <xsd:restriction base="xsd:NMTOKEN">
+      <xsd:enumeration value="optional"/>
+      <xsd:enumeration value="required"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+
+  <xsd:simpleType name = "e_refType">
+    <xsd:restriction base="xsd:NMTOKEN">
+      <xsd:enumeration value="composition"/>
+      <xsd:enumeration value="aggregation"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name = "e_byteOrder">
+    <xsd:restriction base="xsd:NMTOKEN">
+      <xsd:enumeration value="littleEndian"/>
+      <xsd:enumeration value="bigEndian"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="e_dataType">
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="DT_UNKNOWN" />
+      <xsd:enumeration value="DT_BOOLEAN" />
+      <xsd:enumeration value="DT_BYTE" />
+      <xsd:enumeration value="DT_SHORT" />
+      <xsd:enumeration value="DT_LONG" />
+      <xsd:enumeration value="DT_LONGLONG" />
+      <xsd:enumeration value="DT_FLOAT" />
+      <xsd:enumeration value="DT_DOUBLE" />
+      <xsd:enumeration value="DT_STRING" />
+      <xsd:enumeration value="DT_DATE" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  
+  <xsd:simpleType name = "e_blockType">
+    <xsd:restriction base="xsd:NMTOKEN">
+      <xsd:enumeration value="eNoTypeUsi"/>
+      <xsd:enumeration value="eInt8Usi"/>
+      <xsd:enumeration value="eInt16Usi"/>
+      <xsd:enumeration value="eInt32Usi"/>
+      <xsd:enumeration value="eInt64Usi"/>
+      <xsd:enumeration value="eUInt8Usi"/>
+      <xsd:enumeration value="eUInt16Usi"/>
+      <xsd:enumeration value="eUInt32Usi"/>
+      <xsd:enumeration value="eUInt64Usi"/>
+      <xsd:enumeration value="eFloat32Usi"/>
+      <xsd:enumeration value="eFloat64Usi"/>
+      <xsd:enumeration value="eStringUsi"/>
+      <xsd:enumeration value="eEnumUsi"/>
+      <xsd:enumeration value="eTimeUsi"/>
+      <xsd:enumeration value="eInstanceUsi"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:simpleType name="t_maxOccurs">
+    <xsd:union>
+      <xsd:simpleType>
+        <xsd:restriction base="xsd:nonNegativeInteger"/>
+      </xsd:simpleType>
+      <xsd:simpleType>
+        <xsd:restriction base="xsd:string">
+          <xsd:enumeration value="unbounded"/>
+        </xsd:restriction>
+      </xsd:simpleType>
+    </xsd:union>
+  </xsd:simpleType>
+  
+  <xsd:simpleType name="t_timeList">
+    <xsd:list itemType="xsd:dateTime" />
+  </xsd:simpleType>
+  <xsd:simpleType name="t_byteList">
+    <xsd:list itemType="xsd:byte"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="t_ubyteList">
+    <xsd:list itemType="xsd:unsignedByte"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="t_shortList">
+    <xsd:list itemType="xsd:short"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="t_ushortList">
+    <xsd:list itemType="xsd:unsignedShort"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="t_intList">
+    <xsd:list itemType="xsd:int"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="t_uintList">
+    <xsd:list itemType="xsd:unsignedInt"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="t_longList">
+    <xsd:list itemType="xsd:long"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="t_ulongList">
+    <xsd:list itemType="xsd:unsignedLong"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="t_floatList">
+    <xsd:list itemType="xsd:float"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="t_doubleList">
+    <xsd:list itemType="xsd:double"/>
+  </xsd:simpleType>
+  <xsd:complexType name="t_stringList">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" maxOccurs="unbounded" form="unqualified" name="s" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:simpleType name="t_enumList">
+    <xsd:list itemType="xsd:string"/>
+  </xsd:simpleType>
+  <xsd:simpleType name="t_refList">
+    <xsd:list itemType="xsd:anyURI"/>
+  </xsd:simpleType>
+
+  <xsd:complexType name="t_instance_attributes">
+    <xsd:choice minOccurs="0" maxOccurs="unbounded">
+      <xsd:element minOccurs="0" maxOccurs="1" form="unqualified" name="string_attribute">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" maxOccurs="unbounded" form="unqualified" name="s" type="xsd:string" />
+          </xsd:sequence>
+          <xsd:attribute name="name" type="xsd:string" />
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element minOccurs="0" maxOccurs="1" form="unqualified" name="byte_attribute">
+        <xsd:complexType>
+          <xsd:simpleContent>
+            <xsd:extension base="xsd:byte">
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:extension>
+          </xsd:simpleContent>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element minOccurs="0" maxOccurs="1" form="unqualified" name="short_attribute">
+        <xsd:complexType>
+          <xsd:simpleContent>
+            <xsd:extension base="xsd:short">
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:extension>
+          </xsd:simpleContent>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element minOccurs="0" maxOccurs="1" form="unqualified" name="long_attribute">
+        <xsd:complexType>
+          <xsd:simpleContent>
+            <xsd:extension base="xsd:long">
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:extension>
+          </xsd:simpleContent>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element minOccurs="0" maxOccurs="1" form="unqualified" name="float_attribute">
+        <xsd:complexType>
+          <xsd:simpleContent>
+            <xsd:extension base="xsd:float">
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:extension>
+          </xsd:simpleContent>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element minOccurs="0" maxOccurs="1" form="unqualified" name="double_attribute">
+        <xsd:complexType>
+          <xsd:simpleContent>
+            <xsd:extension base="xsd:double">
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:extension>
+          </xsd:simpleContent>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element minOccurs="0" maxOccurs="1" form="unqualified" name="time_attribute">
+        <xsd:complexType>
+          <xsd:simpleContent>
+            <xsd:extension base="xsd:dateTime">
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:extension>
+          </xsd:simpleContent>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:choice>
+  </xsd:complexType>
+                        
+  <xsd:attributeGroup name="t_external_attributes">
+    <xsd:attribute name="filename_url"    type="xsd:anyURI"/>
+    <xsd:attribute name="length_in_bytes" type="usi:t_maxOccurs"/>
+    <xsd:attribute name="start_offset"    type="xsd:nonNegativeInteger"/>
+    <xsd:attribute name="block_size"      type="xsd:positiveInteger"/>
+    <xsd:attribute name="byteOrder"       type="usi:e_byteOrder" default="littleEndian"/>
+  </xsd:attributeGroup>
+
+  <xsd:complexType name="t_byte_sequence">
+    <xsd:sequence>
+      <xsd:element form="unqualified" name="values">
+        <xsd:complexType>
+          <xsd:simpleContent>
+            <xsd:extension base="usi:t_byteList">
+              <xsd:attribute name="external" type="xsd:string" />
+            </xsd:extension>
+          </xsd:simpleContent>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+    <xsd:attribute name="id" type="xsd:ID" />
+  </xsd:complexType>
+
+  <xsd:complexType name="t_short_sequence">
+    <xsd:sequence>
+      <xsd:element form="unqualified" name="values">
+        <xsd:complexType>
+          <xsd:simpleContent>
+            <xsd:extension base="usi:t_shortList">
+              <xsd:attribute name="external" type="xsd:string" />
+            </xsd:extension>
+          </xsd:simpleContent>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+    <xsd:attribute name="id" type="xsd:ID" />
+  </xsd:complexType>
+
+  <xsd:complexType name="t_long_sequence">
+    <xsd:sequence>
+      <xsd:element form="unqualified" name="values">
+        <xsd:complexType>
+          <xsd:simpleContent>
+            <xsd:extension base="usi:t_longList">
+              <xsd:attribute name="external" type="xsd:string" />
+            </xsd:extension>
+          </xsd:simpleContent>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+    <xsd:attribute name="id" type="xsd:ID" />
+  </xsd:complexType>
+
+  <xsd:complexType name="t_longlong_sequence">
+    <xsd:sequence>
+      <xsd:element name="values" form="unqualified">
+        <xsd:complexType>
+          <xsd:simpleContent>
+            <xsd:extension base="usi:t_longList">
+              <xsd:attribute name="external" type="xsd:string" />
+            </xsd:extension>
+          </xsd:simpleContent>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+    <xsd:attribute name="id" type="xsd:ID"/>
+  </xsd:complexType>
+
+  <xsd:complexType name="t_float_sequence">
+    <xsd:sequence>
+      <xsd:element form="unqualified" name="values">
+        <xsd:complexType>
+          <xsd:simpleContent>
+            <xsd:extension base="usi:t_floatList">
+              <xsd:attribute name="external" type="xsd:string" />
+            </xsd:extension>
+          </xsd:simpleContent>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+    <xsd:attribute name="id" type="xsd:ID" />
+  </xsd:complexType>
+
+  <xsd:complexType name="t_double_sequence">
+    <xsd:sequence>
+      <xsd:element form="unqualified" name="values">
+        <xsd:complexType>
+          <xsd:simpleContent>
+            <xsd:extension base="usi:t_doubleList">
+              <xsd:attribute name="external" type="xsd:string" />
+            </xsd:extension>
+          </xsd:simpleContent>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+    <xsd:attribute name="id" type="xsd:ID" />
+  </xsd:complexType>
+
+  <xsd:complexType name="t_time_sequence">
+    <xsd:sequence>
+      <xsd:element form="unqualified" name="values">
+        <xsd:complexType>
+          <xsd:attribute name="external" type="xsd:string" />
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+    <xsd:attribute name="id" type="xsd:ID" />
+  </xsd:complexType>
+
+  <xsd:complexType name="t_string_sequence">
+    <xsd:sequence>
+      <xsd:element name="values" form="unqualified">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element form="unqualified" minOccurs="0" maxOccurs="unbounded" name="s" type="xsd:string" />
+          </xsd:sequence>
+          <xsd:attribute name="external" type="xsd:string" />
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:sequence>
+    <xsd:attribute name="id" type="xsd:ID" />
+  </xsd:complexType>
+  
+<!--   
+  ubyte_sequence,
+  ushort_sequence,
+  ulong_sequence,
+  ulonglong_sequence,
+-->
+</xsd:schema>

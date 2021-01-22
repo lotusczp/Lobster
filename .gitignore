@@ -1,0 +1,41 @@
+# C++ objects and libs
+
+*.slo
+*.lo
+*.o
+*.a
+*.la
+*.lai
+*.so
+*.dll
+*.dylib
+vc100.pdb
+
+# Qt-es
+
+/.qmake.cache
+/.qmake.stash
+*.pro.user
+*.moc
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+Makefile*
+*-build-*
+
+# debug/release
+
+/debug
+/release
+
+/temp
+
+object_script.*.Debug
+object_script.*.Release
+
+!thirdparty/*.dll
+!thirdparty/kerneldlls/*.dll
+!plugin/*.dll
+
+log.txt
+mocinclude.opt

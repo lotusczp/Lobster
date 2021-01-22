@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<obj is="Evox Var Config">
+  <list is="Var Points">
+    <obj is="Point">
+      <str name="PointName" val="Current Setpoint Cprsr1A"/>
+      <str name="Href" val="/evox/var/Cmprsr1CurrentStpt/"/>
+      <str name="Authority" val="ReadOnly"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="Fan Control Diff Pressure Setpoint"/>
+      <str name="Href" val="/evox/var/CndFan1FanCtrlDiffPressStpt/"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x00010002"/>
+      <str name="Nickname" val="AAA"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x00010003"/>
+      <str name="Nickname" val="BBB"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x00010004"/>
+      <str name="Nickname" val="CCC"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x0401000D"/>
+      <str name="Nickname" val="DDD"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x04010029"/>
+      <str name="Nickname" val="EEE"/>
+    </obj>
+    <obj is="Point">
+      <str name="PointName" val="0x22010068"/>
+      <str name="Nickname" val="FFF"/>
+    </obj>
+  </list>
+</obj>

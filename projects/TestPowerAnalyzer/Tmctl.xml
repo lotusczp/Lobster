@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<obj is="Tmctl Plugin Config">
+    <str name="Subscribe" val=":NUMERIC:NORMAL:NUMBER 12;:NUMERIC:NORMAL:ITEM1 SPE;ITEM2 TORQ;ITEM3 U,2,TOT;ITEM4 I,2,TOT;ITEM5 P,SIGMA,TOT;ITEM6 PM;ITEM7 ETA2;ITEM8 ETA1;ITEM9 P,1,TOT;ITEM10 U,5,TOT;ITEM11 I,5,TOT;ITEM12 ETA3"/>
+    <obj is="Point">
+        <str name="Name" val="Speed"/>
+        <str name="Unit" val="RPM"/>
+    </obj>
+    <obj is="Point">
+        <str name="Name" val="Torque"/>
+        <str name="Unit" val="Nm"/>
+    </obj>
+    <obj is="Point">
+        <str name="Name" val="Urms"/>
+        <str name="Unit" val="V"/>
+    </obj>
+    <obj is="Point">
+        <str name="Name" val="Irms"/>
+        <str name="Unit" val="A"/>
+    </obj>
+    <obj is="Point">
+        <str name="Name" val="MotorInputPower"/>
+        <str name="Unit" val="W"/>
+    </obj>
+    <obj is="Point">
+        <str name="Name" val="MotorOutputPower"/>
+        <str name="Unit" val="W"/>
+    </obj>
+    <obj is="Point">
+        <str name="Name" val="MotorEfficiency"/>
+        <str name="Unit" val="%"/>
+    </obj>
+    <obj is="Point">
+        <str name="Name" val="InvEfficiency"/>
+        <str name="Unit" val="%"/>
+    </obj>
+    <obj is="Point">
+        <str name="Name" val="InvInputPower"/>
+        <str name="Unit" val="W"/>
+    </obj>
+    <obj is="Point">
+        <str name="Name" val="Vdc"/>
+        <str name="Unit" val="V"/>
+    </obj>
+    <obj is="Point">
+        <str name="Name" val="Idc"/>
+        <str name="Unit" val="I"/>
+    </obj>
+    <obj is="Point">
+        <str name="Name" val="SystemEfficiency"/>
+        <str name="Unit" val="%"/>
+    </obj>
+</obj>

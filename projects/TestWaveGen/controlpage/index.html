@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Manual</title>
+</head>
+<body style="font-size:12pt;font-family:helvetica">
+
+	<p><center><h1>Lobster Help Document</h1></center></p>
+	
+  <p>
+  Lobster is a general purpose debug/test tool. It do the transmission work using plugins. All points can be manipulated by Lobster Script.
+  (see <a href="./documentation/script.html">Lobster Script</a> for details)
+  </p>
+
+	<p>
+	This page gives a typical use case for Lobster. It will satisfy normal usage. 
+	Please check the documents of seperate modules for details.
+  </p>
+  
+  
+  <p><h1>Setup channels</h1></p>
+  <p>click <b>Tools->Channel Manager</b> to open the channal manager window as follows. </p>
+  
+  <p><center><img src="./documentation/images/channelmanager.png" /></center></p>
+  
+  <p>Each channel requires a configuration file for its points and the corresponding transmission plugin.(see <a href="./documentation/plugins.html">plugins</a> for details)
+  For example, we add a channel named "Var" for UC800 evox/var transmission:
+  </p>
+  
+  <p><center><img src="./documentation/images/addnewchannel.png" /></center></p>
+  
+  <p><b>Note: </b> The channel name should be unique. But the configuration file and plugin can be used for mutiple channels. 
+  For example, we can create a new channal named "Var2" using exact the same "EvoxVar_RTAF.xml" and "EvoxPlugin.dll". 
+  The plugin can create mutiple instances if loaded mutiple times.</p>
+  
+  
+  <p><h1>Select the points</h1></p>
+  
+  <p>If the plugin and configuration file is loaded correctly, we can open <b>Settings->Select Data</b>to see all the supported points.</p>
+  
+  <p><center><img src="./documentation/images/selectdata.png" /></center></p>
+  
+  <p>You can add/remove points you care by double click the point name, or by the four buttons. In this example, we chose "add all".</p>
+  
+  <p>All the selected points are added to the watchwindow</p>
+  
+  <p><center><img src="./documentation/images/watchwindow.png" /></center></p>
+  
+  
+  <p><h1>Configure the channel if necessary</h1></p>
+  
+  <p>Click the <img src="./documentation/images/settingsbutton.png" /> to see if this channel need any configurations. This configuration is 
+  typically related to hardware. For example, the channels using Evox plugin need to configure the server ip and port(can not be empty). 
+  The channels using IMC plugin need to configure the serial port stuff such as prot number and baudrate.</p>
+  
+  <p><center><img src="./documentation/images/settingswidget.png" /></center></p>
+  
+  <p><b>Note: </b>Clicking "OK" button here can not close the widget, since other channels still waiting to be configured. It just
+  comfirm the configuration of this single channel. If you need close this widget, clicking the <img src="./documentation/images/close.png" /> will do.</p>
+  
+  
+  <p><h1>Start/Stop transmission</h1></p>
+  
+  <p>By Clicking the <img src="./documentation/images/startbutton.png" />, all channels, no matter which transmission it relies on, are started. 
+  Each transmission runs in a seperate thread. Once clicked, the start button will change to pause button, it can be used to pause all the 
+  transmission. "Pause" means the plugin no longer exchange data with Lobster main program but the hardware resource (serial port, etc.) it occupies are not 
+  released. Use "Stop" button <img src="./documentation/images/stopbutton.png" /> to completely stop all transmissions and release 
+  all occupied resource.</p>
+  <p>see <a href="./documentation/mainwindow.html">main window</a> for details.</p>
+  
+  
+  <p><h1>Commonly used operations</h1></p>
+  
+  <p>Double click the "value" cell in the watch window can change the value if this point is writable. </p>
+  <p>Check/Uncheck in the "Scope" cell can show/unshow the curve of this point in oscilloscope. </p>
+  <p>Check/Uncheck in the "Log" cell can log/unlog the values of this point into a log file. (see <a href="./documentation/logsystem.html">Log system</a>) </p>
+  <p>For more operations of watchwindow, see <a href="./documentation/watchwindow.html">Watch window</a> for details.</p>
+  <br/>
+  
+  <p>To change the value of Max Y and Min Y and click "set value" can change Y axis of oscilloscope. </p>
+  <p>To change the time range can change X axis of oscilloscope. </p>
+  <p><b>Note: </b>Time range can only be changed by mouse wheel or UP/DOWN key. </p>
+  <p>For more operations of oscilloscope, see <a href="./documentation/oscilloscope.html">oscilloscope</a> for details.</p>
+  <br/>
+   
+  <p><h1>Script system</h1></p>
+  <p>Benefit from Qt framwork, Lobster support the ECMAScript scripting language, as defined in standard ECMA-262. The script is like 
+  Javascript and can manipulate the system as well as the points.</p>
+  <p>By Clicking the <img src="./documentation/images/scriptide.png" /> can open the script IDE. 
+  See <a href="./documentation/script.html">script system</a> for script APIs.</p>
+  <br/>
+  
+  
+</body>
+</html>

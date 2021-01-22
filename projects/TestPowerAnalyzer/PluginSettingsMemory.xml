@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list is="history">
+    <obj is="Var">
+        <str name="server" val="192.168.1.3"/>
+        <str name="port" val="80"/>
+    </obj>
+    <obj is="IMC">
+        <str name="port name" val=""/>
+        <int name="baud rate" val="19200"/>
+    </obj>
+</list>

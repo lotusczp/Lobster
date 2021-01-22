@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list is="history">
+    <obj is="ScopeMenu">
+        <obj is="X axis">
+            <real name="MaxX" val="2000"/>
+        </obj>
+        <obj is="Y axis">
+            <real name="MaxY" val="100"/>
+            <real name="MinY" val="-100"/>
+        </obj>
+    </obj>
+    <obj is="WatchWindow">
+        <obj is="Dbc_BMS3_NetworkState_BMS">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_ESP1_BTCActive">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_ESP1_PTCActive">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_ESP1_VDCActive">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_ESP_ABS1_FLWheelSpd">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_ESP_ABS1_FRWheelSpd">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_ESP_ABS2_RLWheelSpd">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_ESP_ABS2_RRWheelSpd">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_ESP_ABS3_ABSActive">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_ESP_ABS3_VehicleSpeed">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_GW1_NetworkState_GW">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU10_ActDap_Trq">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU10_Damp_DeltaSpd">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU10_SetpointValue">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU10_StallInput_Torque">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU10_TM_DampRotSpd">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU1_CheckSum">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU1_MCU_lockrotorsts">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU1_RollingCounter">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU1_TM_CalOffsetAngleReq">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU1_TM_Derating_MotorOverTemp">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU1_TM_Derating_OverCurr_Neg">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU1_TM_Derating_OverCurr_Pos">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU1_TM_Derating_OverVolt">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU1_TM_Derating_UnderVolt">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU1_TM_MotorPower">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU1_TM_NegAvailTrqMax_5s">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU1_TM_OffsetAngle">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU1_TM_PosAvailTrqMax_5s">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU3_CheckSum">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU3_RollingCounter">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU3_TM_ActRotSpd">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU3_TM_ActTrq">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU3_TM_FailCode">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU3_TM_FailSts">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU3_TM_OperMod">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU3_TM_SysErr">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU3_TM_hillholdsts">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU4_CheckSum">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU4_RollingCounter">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU4_TM_ActHvCurr">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU4_TM_ActHvVolt">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU4_TM_EffReqTrq">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU4_TM_NegAvailTrqMax">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU4_TM_PosAvailTrqMax">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU5_CheckSum">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU5_NetworkState">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU5_RollingCounter">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU5_TM_ActTemp">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU5_TM_InvActTemp">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU6_SwVersion0">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU6_SwVersion1">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU6_SwVersion2">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU6_SwVersion3">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU6_SwVersion4">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU6_SwVersion5">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU6_SwVersion6">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU7_CheckSum">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU7_RollingCounter">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU7_TM_ActPosRotSpd">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU7_TM_ActPosTrq">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU7_TM_Antslipsts">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU7_TM_EffPedelTrq">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU7_TM_NegAvailTrqMax_10s">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU7_TM_PosAvailTrqMax_10s">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU7_TM_RotlDir">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU8_CheckSum">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU8_RollingCounter">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU8_TM_ActRotSpd_RM">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU8_TM_ActTrq_RM">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU8_TM_Amount_RM">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU8_TM_InvActTemp_RM">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU8_TM_OperMode_RM">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU9_CheckSum">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU9_RollingCounter">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU9_TM_ActHvCurr_RM">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU9_TM_ActHvVolt_RM">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU9_TM_ActTemp_RM">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU9_TM_InvTempwarning_RM">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_MCU9_TM_Tempwarning_RM">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_OBC2_NetworkState_OBC">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_VCU1_BMSEmgyToShutDown">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_VCU1_CheckSum">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_VCU1_ChrgEnable">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_VCU1_CrashOutputSts">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_VCU1_HillHold">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_VCU1_MCUModReq">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_VCU1_MCUTrqSetPoint">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_VCU1_RollingCounter">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_VCU2_GearSts">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_VCU2_TestFLag">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_VCU3_CheckSum">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_VCU3_MCUCoolantTEMP">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_VCU3_NetworkState">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_VCU3_RollingCounter">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_VCU3_SysFault">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_VCU6_Antslip">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+        <obj is="Dbc_VCU6_MCUPredictTrq">
+            <obj name="scope enable" val="false"/>
+            <real name="curve gain" val="1"/>
+            <real name="curve offset" val="0"/>
+            <obj name="curve color" val="#ff0000"/>
+            <obj name="log enable" val="false"/>
+        </obj>
+    </obj>
+    <obj is="SelectedNames">
+        <obj name="Dbc_BMS3_NetworkState_BMS"/>
+        <obj name="Dbc_ESP1_BTCActive"/>
+        <obj name="Dbc_ESP1_PTCActive"/>
+        <obj name="Dbc_ESP1_VDCActive"/>
+        <obj name="Dbc_ESP_ABS1_FLWheelSpd"/>
+        <obj name="Dbc_ESP_ABS1_FRWheelSpd"/>
+        <obj name="Dbc_ESP_ABS2_RLWheelSpd"/>
+        <obj name="Dbc_ESP_ABS2_RRWheelSpd"/>
+        <obj name="Dbc_ESP_ABS3_ABSActive"/>
+        <obj name="Dbc_ESP_ABS3_VehicleSpeed"/>
+        <obj name="Dbc_GW1_NetworkState_GW"/>
+        <obj name="Dbc_MCU10_ActDap_Trq"/>
+        <obj name="Dbc_MCU10_Damp_DeltaSpd"/>
+        <obj name="Dbc_MCU10_SetpointValue"/>
+        <obj name="Dbc_MCU10_StallInput_Torque"/>
+        <obj name="Dbc_MCU10_TM_DampRotSpd"/>
+        <obj name="Dbc_MCU1_CheckSum"/>
+        <obj name="Dbc_MCU1_MCU_lockrotorsts"/>
+        <obj name="Dbc_MCU1_RollingCounter"/>
+        <obj name="Dbc_MCU1_TM_CalOffsetAngleReq"/>
+        <obj name="Dbc_MCU1_TM_Derating_MotorOverTemp"/>
+        <obj name="Dbc_MCU1_TM_Derating_OverCurr_Neg"/>
+        <obj name="Dbc_MCU1_TM_Derating_OverCurr_Pos"/>
+        <obj name="Dbc_MCU1_TM_Derating_OverVolt"/>
+        <obj name="Dbc_MCU1_TM_Derating_UnderVolt"/>
+        <obj name="Dbc_MCU1_TM_MotorPower"/>
+        <obj name="Dbc_MCU1_TM_NegAvailTrqMax_5s"/>
+        <obj name="Dbc_MCU1_TM_OffsetAngle"/>
+        <obj name="Dbc_MCU1_TM_PosAvailTrqMax_5s"/>
+        <obj name="Dbc_MCU3_CheckSum"/>
+        <obj name="Dbc_MCU3_RollingCounter"/>
+        <obj name="Dbc_MCU3_TM_ActRotSpd"/>
+        <obj name="Dbc_MCU3_TM_ActTrq"/>
+        <obj name="Dbc_MCU3_TM_FailCode"/>
+        <obj name="Dbc_MCU3_TM_FailSts"/>
+        <obj name="Dbc_MCU3_TM_OperMod"/>
+        <obj name="Dbc_MCU3_TM_SysErr"/>
+        <obj name="Dbc_MCU3_TM_hillholdsts"/>
+        <obj name="Dbc_MCU4_CheckSum"/>
+        <obj name="Dbc_MCU4_RollingCounter"/>
+        <obj name="Dbc_MCU4_TM_ActHvCurr"/>
+        <obj name="Dbc_MCU4_TM_ActHvVolt"/>
+        <obj name="Dbc_MCU4_TM_EffReqTrq"/>
+        <obj name="Dbc_MCU4_TM_NegAvailTrqMax"/>
+        <obj name="Dbc_MCU4_TM_PosAvailTrqMax"/>
+        <obj name="Dbc_MCU5_CheckSum"/>
+        <obj name="Dbc_MCU5_NetworkState"/>
+        <obj name="Dbc_MCU5_RollingCounter"/>
+        <obj name="Dbc_MCU5_TM_ActTemp"/>
+        <obj name="Dbc_MCU5_TM_InvActTemp"/>
+        <obj name="Dbc_MCU6_SwVersion0"/>
+        <obj name="Dbc_MCU6_SwVersion1"/>
+        <obj name="Dbc_MCU6_SwVersion2"/>
+        <obj name="Dbc_MCU6_SwVersion3"/>
+        <obj name="Dbc_MCU6_SwVersion4"/>
+        <obj name="Dbc_MCU6_SwVersion5"/>
+        <obj name="Dbc_MCU6_SwVersion6"/>
+        <obj name="Dbc_MCU7_CheckSum"/>
+        <obj name="Dbc_MCU7_RollingCounter"/>
+        <obj name="Dbc_MCU7_TM_ActPosRotSpd"/>
+        <obj name="Dbc_MCU7_TM_ActPosTrq"/>
+        <obj name="Dbc_MCU7_TM_Antslipsts"/>
+        <obj name="Dbc_MCU7_TM_EffPedelTrq"/>
+        <obj name="Dbc_MCU7_TM_NegAvailTrqMax_10s"/>
+        <obj name="Dbc_MCU7_TM_PosAvailTrqMax_10s"/>
+        <obj name="Dbc_MCU7_TM_RotlDir"/>
+        <obj name="Dbc_MCU8_CheckSum"/>
+        <obj name="Dbc_MCU8_RollingCounter"/>
+        <obj name="Dbc_MCU8_TM_ActRotSpd_RM"/>
+        <obj name="Dbc_MCU8_TM_ActTrq_RM"/>
+        <obj name="Dbc_MCU8_TM_Amount_RM"/>
+        <obj name="Dbc_MCU8_TM_InvActTemp_RM"/>
+        <obj name="Dbc_MCU8_TM_OperMode_RM"/>
+        <obj name="Dbc_MCU9_CheckSum"/>
+        <obj name="Dbc_MCU9_RollingCounter"/>
+        <obj name="Dbc_MCU9_TM_ActHvCurr_RM"/>
+        <obj name="Dbc_MCU9_TM_ActHvVolt_RM"/>
+        <obj name="Dbc_MCU9_TM_ActTemp_RM"/>
+        <obj name="Dbc_MCU9_TM_InvTempwarning_RM"/>
+        <obj name="Dbc_MCU9_TM_Tempwarning_RM"/>
+        <obj name="Dbc_OBC2_NetworkState_OBC"/>
+        <obj name="Dbc_VCU1_BMSEmgyToShutDown"/>
+        <obj name="Dbc_VCU1_CheckSum"/>
+        <obj name="Dbc_VCU1_ChrgEnable"/>
+        <obj name="Dbc_VCU1_CrashOutputSts"/>
+        <obj name="Dbc_VCU1_HillHold"/>
+        <obj name="Dbc_VCU1_MCUModReq"/>
+        <obj name="Dbc_VCU1_MCUTrqSetPoint"/>
+        <obj name="Dbc_VCU1_RollingCounter"/>
+        <obj name="Dbc_VCU2_GearSts"/>
+        <obj name="Dbc_VCU2_TestFLag"/>
+        <obj name="Dbc_VCU3_CheckSum"/>
+        <obj name="Dbc_VCU3_MCUCoolantTEMP"/>
+        <obj name="Dbc_VCU3_NetworkState"/>
+        <obj name="Dbc_VCU3_RollingCounter"/>
+        <obj name="Dbc_VCU3_SysFault"/>
+        <obj name="Dbc_VCU6_Antslip"/>
+        <obj name="Dbc_VCU6_MCUPredictTrq"/>
+    </obj>
+    <obj is="ChannelMgr">
+        <obj is="Dbc">
+            <str name="Configuration Path" val="Dbc.xml"/>
+            <str name="Plugin Path" val="./plugin/DbcPlugin.dll"/>
+        </obj>
+    </obj>
+</list>

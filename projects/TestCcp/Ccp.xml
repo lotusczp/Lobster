@@ -1,0 +1,5 @@
+<?xml version="1.0" ?>
+<obj is="CCP Plugin Config">
+	<int name="Slave Receive CAN ID" val="0x100"/>
+	<int name="Slave Transmit CAN ID" val="0x101"/>
+</obj>
