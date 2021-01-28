@@ -1,9 +1,11 @@
 # Lobster
 
+English | [简体中文](./README.zh_CN.md)
+
 This repository is for the main program of Lobster. Lobster is a general purpose tool for debugging and testing. The idea is to gather, display and manipulate runtime values in remote devices, especially embedded systems. The main features include:
 - Plugin system to customize the communication with plenty of remote devices
 - Watch window to display values.
-- Oscilloscope to show the curves in realtime.
+- Oscilloscope to show the curves in realtime， whose UE is like CANoe/CANalyzer.
 - Log system to store the values with timestamp for feature analysis.
 - Replay system to show the curves of data saved by log file.
 - A script system (JavaScript) to extend, which can be used as auto-testing system.
@@ -29,6 +31,7 @@ We use JavaScript (Qt support the interaction between JS and C++) as the script 
 - Control page system is still under development
 - Update help
 - We need an auto update feature
+- Currently the script system is using the deprecated QtScript module. Need to transport to new QJSEngine
 
 ## How to build
 - Qt 5.15.2 (MSVC 2019, 64 bit) is tested. Others I still need to verify.
