@@ -9,9 +9,6 @@ LColorSelectButton::LColorSelectButton(QWidget *parent) :
     ui(new Ui::LColorSelectButton)
 {
     ui->setupUi(this);
-#if 0
-    ui->label->setVisible(false);
-#endif
 }
 
 LColorSelectButton::~LColorSelectButton()
@@ -54,8 +51,5 @@ void LColorSelectButton::applyColorChange()
 
     ui->pushButton->setStyleSheet(styleSheet);
     ui->pushButton->update();
-#if 0
-    ui->label->setText(strColor);
-#endif
 }
 

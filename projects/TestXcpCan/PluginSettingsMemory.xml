@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <list is="history">
-    <obj is="Ccp">
+    <obj is="Xcp">
         <obj is="Measurements">
             <obj address="134253088" enable="true" event="3" name="focObj.Ib_pu" type="6"/>
             <obj address="134253100" enable="false" event="3" name="focObj.parkCosTh" type="6"/>

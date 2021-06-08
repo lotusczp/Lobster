@@ -13,7 +13,7 @@
 #include "LErrorHandler.h"
 #include "LUniqueResource.h"
 
-const QString c_strVersion = "1.2.1";
+const QString c_strVersion = "1.3.0";
 
 LMainWindow::LMainWindow(QWidget *parent) :
     QMainWindow(parent),

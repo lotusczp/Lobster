@@ -10,67 +10,67 @@
         </obj>
     </obj>
     <obj is="WatchWindow">
-        <obj is="Ccp_C$test_int16">
+        <obj is="Xcp_C$test_int16">
             <obj name="scope enable" val="false"/>
             <obj name="curve color" val="#ff0000"/>
             <obj name="log enable" val="false"/>
         </obj>
-        <obj is="Ccp_C$test_int32">
+        <obj is="Xcp_C$test_int32">
             <obj name="scope enable" val="false"/>
             <obj name="curve color" val="#ff0000"/>
             <obj name="log enable" val="false"/>
         </obj>
-        <obj is="Ccp_C$test_int8">
+        <obj is="Xcp_C$test_int8">
             <obj name="scope enable" val="true"/>
             <obj name="curve color" val="#ff0000"/>
             <obj name="log enable" val="false"/>
         </obj>
-        <obj is="Ccp_C$test_uint16">
+        <obj is="Xcp_C$test_uint16">
             <obj name="scope enable" val="true"/>
             <obj name="curve color" val="#ff0000"/>
             <obj name="log enable" val="false"/>
         </obj>
-        <obj is="Ccp_C$test_uint32">
+        <obj is="Xcp_C$test_uint32">
             <obj name="scope enable" val="false"/>
             <obj name="curve color" val="#ff0000"/>
             <obj name="log enable" val="false"/>
         </obj>
-        <obj is="Ccp_C$test_uint8">
+        <obj is="Xcp_C$test_uint8">
             <obj name="scope enable" val="true"/>
             <obj name="curve color" val="#ff0000"/>
             <obj name="log enable" val="false"/>
         </obj>
-        <obj is="Ccp_M$focObj.Ib_pu">
+        <obj is="Xcp_M$focObj.Ib_pu">
             <obj name="scope enable" val="false"/>
             <obj name="curve color" val="#ff0000"/>
             <obj name="log enable" val="false"/>
         </obj>
-        <obj is="Ccp_M$focObj.parkCosTh">
+        <obj is="Xcp_M$focObj.parkCosTh">
             <obj name="scope enable" val="false"/>
             <obj name="curve color" val="#ff0000"/>
             <obj name="log enable" val="false"/>
         </obj>
-        <obj is="Ccp_M$focObj.parkSinTh">
+        <obj is="Xcp_M$focObj.parkSinTh">
             <obj name="scope enable" val="false"/>
             <obj name="curve color" val="#ff0000"/>
             <obj name="log enable" val="false"/>
         </obj>
     </obj>
     <obj is="SelectedNames">
-        <obj name="Ccp_C$test_int8"/>
-        <obj name="Ccp_C$test_uint8"/>
-        <obj name="Ccp_C$test_int16"/>
-        <obj name="Ccp_C$test_uint16"/>
-        <obj name="Ccp_C$test_int32"/>
-        <obj name="Ccp_C$test_uint32"/>
-        <obj name="Ccp_M$focObj.Ib_pu"/>
-        <obj name="Ccp_M$focObj.parkCosTh"/>
-        <obj name="Ccp_M$focObj.parkSinTh"/>
+        <obj name="Xcp_C$test_int8"/>
+        <obj name="Xcp_C$test_uint8"/>
+        <obj name="Xcp_C$test_int16"/>
+        <obj name="Xcp_C$test_uint16"/>
+        <obj name="Xcp_C$test_int32"/>
+        <obj name="Xcp_C$test_uint32"/>
+        <obj name="Xcp_M$focObj.Ib_pu"/>
+        <obj name="Xcp_M$focObj.parkCosTh"/>
+        <obj name="Xcp_M$focObj.parkSinTh"/>
     </obj>
     <obj is="ChannelMgr">
-        <obj is="Ccp">
-            <str name="Configuration Path" val="Ccp.xml"/>
-            <str name="Plugin Path" val="./plugin/CcpPlugin.dll"/>
+        <obj is="Xcp">
+            <str name="Configuration Path" val="XcpCan.xml"/>
+            <str name="Plugin Path" val="./plugin/XcpCanPlugin.dll"/>
         </obj>
     </obj>
 </list>
