@@ -2,6 +2,8 @@
 
 English | [简体中文](./README.zh_CN.md)
 
+Download pre-built release [Lobster 1.3.0](https://github.com/lotusczp/Lobster/releases/tag/release_1_3_0)
+
 This repository is for the main program of Lobster. Lobster is a general purpose tool for debugging and testing. The idea is to gather, display and manipulate runtime values in remote devices, especially embedded systems. The main features include:
 - Plugin system to customize the communication with plenty of remote devices
 - Watch window to display values.

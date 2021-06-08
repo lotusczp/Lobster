@@ -2,6 +2,8 @@
 
 [English](./README.md) | 简体中文
 
+下载release版本 [Lobster 1.3.0](https://github.com/lotusczp/Lobster/releases/tag/release_1_3_0)
+
 Lobster是一个通用的上位机，主要用于嵌入式系统的远程调试与测试，也可以连接设备，进行自动脚本测试。 主要功能是可以通过插件与远程设备通信，读取采样值，写入控制量。主要功能如下：
 - Lobster与远程的通信都是通过插件（DLL）进行的，用户可以根据需要定制自己的插件
 - 显示数据的视窗，同时也是一个控制台
